@@ -1,0 +1,63 @@
+{
+  "title": "Plasma questionaire",
+  "start_button_text": "Start",
+  "questions": [
+    {
+      "number": 1,
+      "prompt": "First question?",
+      "answers": [
+        "Ja",
+        "Nein"
+      ],
+      "correct": {
+        "index": 0
+      }
+    },
+    {
+      "number": 2,
+      "prompt": "2nd question?",
+      "answers": [
+        "Ja",
+        "Nein"
+      ],
+      "correct": {
+        "index": 0
+      }
+    },
+    {
+      "number": 3,
+      "prompt": "3rd question?",
+      "answers": [
+        "Ja",
+        "Nein"
+      ],
+      "correct": {
+        "index": 0
+      }
+    },
+    {
+      "number": 4,
+      "prompt": "4th question?",
+      "answers": [
+        "Ja",
+        "Nein"
+      ],
+      "correct": {
+        "index": 0
+      }
+    },
+    {
+      "number": 5,
+      "prompt": "5th question?",
+      "answers": [
+        "Ja",
+        "Nein"
+      ],
+      "correct": {
+        "index": 0
+      }
+    }
+  ],
+  "success": "You can help us, please call xxxx",
+  "failure": "Thank you for filling in the form but you are not eligible to help."
+}
