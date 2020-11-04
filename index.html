@@ -4,32 +4,61 @@
   <title>Calc</title>
   <script type="text/javascript">
   function compare(){
-      var incid = 125;
+      var incid = 1e-5 * parseFloat(document.getElementById('incid').value);
       var sample = 1000;
-      var cp = incid/sample;
+      var cp = incid * sample;
       var cn = sample - cp;
-      var sp = parseFloat(document.getElementById('spec').value);
-      var se = parseFloat(document.getElementById('sens').value);
+      var sp = 0.01 * parseFloat(document.getElementById('spec').value);
+      var se = 0.01 * parseFloat(document.getElementById('sens').value);
       var tp = se * cp;
       var fp = cn * (1.0 - sp);
       var tn = sp * cn;
       var fn = cp * (1.0 - se);
-      document.getElementById("tp").innerHTML = tp;
-      document.getElementById("tn").innerHTML = tn;
-      document.getElementById("fp").innerHTML = fp;
-      document.getElementById("fn").innerHTML = fn;
+      document.getElementById("tp").innerHTML = Math.round(tp);
+      document.getElementById("tn").innerHTML = Math.round(tn);
+      document.getElementById("fp").innerHTML = Math.round(fp);
+      document.getElementById("fn").innerHTML = Math.round(fn);
   }
 </script>
 </head>
 <body>
   <div>
-    Specificity: <input type="text" id="spec" />
-    Sensitivity: <input type="text" id="sens" />
-    <button onclick="compare()">Compare</button>
+    <table>
+      <tr>
+        <td>RKI: Tagesaktuelle Inzidenz Deutschlandweit (/100000):</td>
+        <td><input type="text" id="incid" value="125" /></td>
+      </tr>
+      <tr>
+        <td>Eingabe Test Sensitivität (Prozent):</td>
+        <td><input type="text" id="sens" value="95"/></td>
+      </tr>
+      <tr>
+        <td>Eingabe Test Speziivität (Prozent):</td>
+        <td><input type="text" id="spec" value="99"/></td>
+      </tr>
+    </table>
+    <button onclick="compare()">Calculate</button>
   </div>
-  True Positive: <p id="tp"></p>
-  True Negative: <p id="tn"></p>
-  False Positive: <p id="fp"></p>
-  False Negative: <p id="fn"></p>
+  <div>
+    In 1000 getesteten Personen sind zu erwarten:
+    <table>
+      <tr>
+        <td>Falsch positive (Anzahl):</td>
+        <td id=fp></td>
+      </tr>
+      <tr>
+        <td>Falsch negativ (Anzahl):</td>
+        <td id=fn></td>
+      </tr>
+      <tr>
+        <td>Richtig positive (Anzahl):</td>
+        <td id=tp></td>
+      </tr>
+      <tr>
+        <td>Richtig negativ (Anzahl):</td>
+        <td id=tn></td>
+      </tr>
+    </table>
+  </div>
 </body>
 </html>
