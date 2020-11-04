@@ -10,6 +10,7 @@ p {
 
 .content {
   max-width: 1200px;
+  text-align: center;
   margin: auto;
 }
 
@@ -26,16 +27,23 @@ p {
 }
 
 .tbl-t .tbl {
-    background: #519251;
+    background: #418241;
+    color: #fff;
 }
 
 .tbl-f .tbl {
-    background: #aa2218;
+    background: #9a2218;
+    color: #fff;
+}
+
+.tbl-n .tbl {
+    background: #777777;
+    color: #fff;
 }
 
 .tbl {
-    background: #666;
-    color: #fff;
+    background: #fff;
+    color: #000;
 }
     .tbl h2 {
         margin: 0;
