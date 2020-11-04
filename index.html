@@ -1,31 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <title>Quiz Example</title>
-  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-  <link href="http://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-  <link rel="stylesheet" href="quiz.css">
-  <style>
-    #quiz {
-      height: 600px;
-      display: block;
-    }
-  </style>
+  <title>Calc</title>
 </head>
 <body>
-  <div class="container-fluid">
-    <div id="quiz"></div>
-  </div>
-  <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-  <script src="quiz.js"></script>
-  <script>
-    $(function() {
-      $('#quiz').quiz("quiz.json");
-    });
-  </script>
+  <div>
+Specificity: <input type="text" id="inputfield1" />
+    Sensitivity: <input type="text" id="inputfield2" />
+    <button onclick="compare()">Compare</button>
+
+<script type="text/javascript">
+function compare(){
+    var variable1 = parseInt(document.getElementById('inputfield1').value);
+    var variable2 = parseInt(document.getElementById('inputfield2').value);
+    if (variable1 &amp;gt; variable2) {
+      alert("The first variable is greater than the second.");
+    } else {
+      alert("The second variable is greater than or equal to the first one.");
+    }    
+};
+</script>
+
 </body>
 </html>
