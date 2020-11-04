@@ -14,10 +14,14 @@
       var fp = cn * (1.0 - sp);
       var tn = sp * cn;
       var fn = cp * (1.0 - se);
+      var ppv = tp / (tp + fp);
+      var npv = tn / (tn + fn);
       document.getElementById("tp").innerHTML = Math.round(tp);
       document.getElementById("tn").innerHTML = Math.round(tn);
       document.getElementById("fp").innerHTML = Math.round(fp);
       document.getElementById("fn").innerHTML = Math.round(fn);
+      document.getElementById("ppv").innerHTML = Math.round(10000.0 * ppv) / 100.0 + "%";
+      document.getElementById("npv").innerHTML = Math.round(10000.0 * npv) / 100.0 + "%";
   }
 </script>
 </head>
@@ -58,6 +62,15 @@
         <td>Richtig negativ (Anzahl):</td>
         <td id=tn></td>
       </tr>
+      <tr>
+        <td>Positiver praediktiver Wert (Prozent):</td>
+        <td id=ppv></td>
+      </tr>
+      <tr>
+        <td>Negativer praediktiver Wert (Prozent):</td>
+        <td id=npv></td>
+      </tr>
+
     </table>
   </div>
 </body>
