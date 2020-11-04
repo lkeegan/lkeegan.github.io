@@ -11,6 +11,7 @@
       } else {
         alert("The second variable is greater than or equal to the first one.");
       }
+      document.getElementById("result").innerHTML = sp + se;
   }
 </script>
 </head>
@@ -19,6 +20,8 @@
     Specificity: <input type="text" id="spec" />
     Sensitivity: <input type="text" id="sens" />
     <button onclick="compare()">Compare</button>
+  </div>
+  <div id="result">
   </div>
 </body>
 </html>
