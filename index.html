@@ -2,24 +2,23 @@
 <html lang="en">
 <head>
   <title>Calc</title>
+  <script type="text/javascript">
+  function compare(){
+      var variable1 = parseInt(document.getElementById('inputfield1').value);
+      var variable2 = parseInt(document.getElementById('inputfield2').value);
+      if (variable1 &amp;gt; variable2) {
+        alert("The first variable is greater than the second.");
+      } else {
+        alert("The second variable is greater than or equal to the first one.");
+      }    
+  };
+</script>
 </head>
 <body>
   <div>
-Specificity: <input type="text" id="inputfield1" />
+    Specificity: <input type="text" id="inputfield1" />
     Sensitivity: <input type="text" id="inputfield2" />
     <button onclick="compare()">Compare</button>
-
-<script type="text/javascript">
-function compare(){
-    var variable1 = parseInt(document.getElementById('inputfield1').value);
-    var variable2 = parseInt(document.getElementById('inputfield2').value);
-    if (variable1 &amp;gt; variable2) {
-      alert("The first variable is greater than the second.");
-    } else {
-      alert("The second variable is greater than or equal to the first one.");
-    }    
-};
-</script>
-
+  </div>
 </body>
 </html>
