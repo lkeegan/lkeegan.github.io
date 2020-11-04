@@ -4,14 +4,20 @@
   <title>Calc</title>
   <script type="text/javascript">
   function compare(){
+      var incid = 125;
+      var sample = 1000;
+      var cp = incid/sample;
+      var cn = sample - cp;
       var sp = parseFloat(document.getElementById('spec').value);
       var se = parseFloat(document.getElementById('sens').value);
-      if (sp > se) {
-        alert("The first variable is greater than the second.");
-      } else {
-        alert("The second variable is greater than or equal to the first one.");
-      }
-      document.getElementById("result").innerHTML = sp + se;
+      var tp = se * cp;
+      var fp = cn * (1.0 - sp);
+      var tn = sp * cn;
+      var fn = cp * (1.0 - se);
+      document.getElementById("tp").innerHTML = tp;
+      document.getElementById("tn").innerHTML = tn;
+      document.getElementById("fp").innerHTML = fp;
+      document.getElementById("fn").innerHTML = fn;
   }
 </script>
 </head>
@@ -21,7 +27,9 @@
     Sensitivity: <input type="text" id="sens" />
     <button onclick="compare()">Compare</button>
   </div>
-  <div id="result">
-  </div>
+  True Positive: <p id="tp"></p>
+  True Negative: <p id="tn"></p>
+  False Positive: <p id="fp"></p>
+  False Negative: <p id="fn"></p>
 </body>
 </html>
