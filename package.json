@@ -1,0 +1,19 @@
+{
+  "title": "keegan.ch website",
+  "name": "keegan-ch",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npm run clean && node scripts/build.mjs",
+    "clean": "node scripts/clean.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lkeegan/lkeegan.github.io.git"
+  },
+  "license": "MIT",
+  "author": "Liam Keegan",
+  "dependencies": {},
+  "devDependencies": {
+    "shelljs": "0.8.5"
+  }
+}
