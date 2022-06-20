@@ -91,15 +91,17 @@
 }
 
 #content ul {
-  list-style-type: none;
-  margin: 0px;
+  list-style-type: square;
+  /*  margin: 0px;
   padding: 2px 0px 15px 30px;
+*/
 }
 
-#content ul.bullet {
+content ul.bullet {
   list-style-type: square;
-  margin: 0px;
+  /*  margin: 0px;
   padding: 2px 0px 15px 30px;
+*/
 }
 
 #content table td {
