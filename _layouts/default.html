@@ -40,10 +40,10 @@ navbar_pages:
           <li>
             {% if navbar_page.title == page.title %}
             <a class="active" href="{{ navbar_page.url }}.html"
-              >navbar_page.title</a
+              >{{ navbar_page.title }}</a
             >
             {% else %}
-            <a href="{{ navbar_page.url }}.html">navbar_page.title</a>
+            <a href="{{ navbar_page.url }}.html">{{ navbar_page.title}}</a>
             {% endif %}
           </li>
           {% endfor %}
