@@ -3,36 +3,43 @@
   organization: Scientific Software Center
   url: https://ssc.iwr.uni-heidelberg.de/
   location: Heidelberg University, Germany
+
 - year: 2019-2021
   position: Scientific Software Developer
   organization: Department for modelling of biological processes
-  url: https://www.cos.uni-heidelberg.de/index.php/u.kummer?l=_e
+  url: https://www.cos.uni-heidelberg.de/en/research-groups/modelling-of-biological-processes
   location: Heidelberg University, Germany
+
 - year: 2019
   position: Scientific Software Engineer, HPC
   organization: Blue Brain Project
   url: https://bluebrain.epfl.ch/
   location: EPFL, Geneva, Switzerland
+
 - year: 2017-2018
   position: Postdoctoral Researcher
   organization: ETH
   url: https://ethz.ch/en.html
   location: Zurich, Switzerland
+
 - year: 2013-2016
   position: Senior Fellow
   organization: Department of Theoretical Physics, CERN
   url: https://theory.cern/
   location: Geneva, Switzerland
+
 - year: 2011-2013
   position: Postdoctoral Researcher
   organization: Instituto de Física Teórica UAM/CSIC
   url: https://www.ift.uam-csic.es/en
   location: Madrid, Spain
+
 - year: 2007-2011
   position: "PhD: Dynamical Electroweak Symmetry Breaking on the Lattice"
   organization: Particle Physics Theory Group, Edinburgh University
   url: https://www.ph.ed.ac.uk/particle-physics-theory
   location: Edinburgh, UK
+
 - year: 2003-2007
   position: MPhys
   organization: Lincoln College, Oxford University
