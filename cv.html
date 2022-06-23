@@ -1,27 +1,22 @@
 ---
 title: CV
 layout: default
+image: cv.jpg
 ---
 
-<div id="pic">
-  <a href="CV-Liam-Keegan.pdf"
-    ><img src="imgs/cv.jpg" alt="Download CV as pdf"
-  /></a>
-</div>
-<div id="txt">
-  <h2>Brief CV</h2>
-  <ul>
-    {% for item in site.data.cv %}
-    <li>
-      {{ item.year }}:
-      <ul>
-        <li>{{ item.position }}</li>
-        <li>
-          <a href="{{ item.url }}">{{ item.organization }}</a>,
-          <em>{{ item.location }}.</em>
-        </li>
-      </ul>
-    </li>
-    {% endfor %}
-  </ul>
-</div>
+<p>Download <a href="CV-Liam-Keegan.pdf">CV as pdf</a>.</p>
+<h2>Brief CV</h2>
+<ul>
+  {% for item in site.data.cv %}
+  <li>
+    {{ item.year }}:
+    <ul>
+      <li>{{ item.position }}</li>
+      <li>
+        <a href="{{ item.url }}">{{ item.organization }}</a>,
+        <em>{{ item.location }}.</em>
+      </li>
+    </ul>
+  </li>
+  {% endfor %}
+</ul>

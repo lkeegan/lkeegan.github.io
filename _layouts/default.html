@@ -49,7 +49,15 @@ navbar_pages:
           {% endfor %}
         </ul>
       </div>
-      <div id="content">{{ content }}</div>
+      <div id="content">
+        {% if page.image != null %}
+        <div id="pic">
+          <img src="imgs/{{ page.image }}" alt="photo" />
+        </div>
+        {% endif %}
+        <div id="txt">{{ content }}</div>
+      </div>
+      div>
       <div id="footer">
         <a href="https://orcid.org/0000-0002-0654-4979"
           ><img src="imgs/ORCID.png" alt="ORCID" width="14px"
