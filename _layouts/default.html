@@ -1,3 +1,15 @@
+---
+navbar_pages:
+  - title: Home
+    url: index
+  - title: Teaching
+    url: teaching
+  - title: Physics
+    url: physics
+  - title: CV
+    url: cv
+---
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
   <head>
@@ -24,10 +36,17 @@
       </div>
       <div id="navigation">
         <ul>
-          <li><a class="active" href="index.html">Home</a></li>
-          <li><a href="teaching.html">Teaching</a></li>
-          <li><a href="physics.html">Physics</a></li>
-          <li><a href="cv.html">CV</a></li>
+          {% for navbar_page in layout.navbar_pages %}
+          <li>
+            {% if navbar_page.title == page.title %}
+            <a class="active" href="{{ navbar_page.url }}.html"
+              >navbar_page.title</a
+            >
+            {% else %}
+            <a href="{{ navbar_page.url }}.html">navbar_page.title</a>
+            {% endif %}
+          </li>
+          {% endfor %}
         </ul>
       </div>
       <div id="content">{{ content }}</div>

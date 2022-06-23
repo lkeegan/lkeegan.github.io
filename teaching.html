@@ -1,69 +1,18 @@
 ---
 title: Teaching
+layout: default
 ---
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-  <head>
-    <meta name="author" content="Liam Keegan" />
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-    <meta
-      id="meta"
-      name="viewport"
-      content="width=device-width; initial-scale=1.0"
-    />
-    <title>Liam Keegan</title>
-    <link
-      rel="stylesheet"
-      href="css/layout.css"
-      type="text/css"
-      media="screen"
-    />
-  </head>
-  <body>
-    <div id="container">
-      <div id="header">
-        <h1>Liam Keegan</h1>
-        Scientific Software Developer and High Performance Computing expert
-      </div>
-      <div id="navigation">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a class="active" href="teaching.html">Teaching</a></li>
-          <li><a href="physics.html">Physics</a></li>
-          <li><a href="cv.html">CV</a></li>
-        </ul>
-      </div>
-      <div id="content">
-        {% for section in site.data.teaching %}
-        <h2>{{ section.title }}</h2>
-        <p>{{ section.description }}:</p>
-        <ul>
-          {% for item in section.items %}
-          <li>
-            {{ item.title }} ({{ item.year }}):
-            <a href="{{ item.slides }}">slides</a>,
-            <a href="{{ item.code }}">code</a>
-          </li>
-          {% endfor %}
-        </ul>
-        {% endfor %}
-      </div>
-      <div id="footer">
-        <a href="https://orcid.org/0000-0002-0654-4979"
-          ><img src="imgs/ORCID.png" alt="ORCID" width="14px"
-        /></a>
-        <a href="https://www.xing.com/profile/Liam_Keegan2"
-          ><img src="imgs/XING.png" alt="XING" width="14px"
-        /></a>
-        <a href="https://www.linkedin.com/in/liamrgkeegan"
-          ><img src="imgs/LinkedIn.png" alt="LinkedIn" width="14px"
-        /></a>
-        <a href="https://github.com/lkeegan"
-          ><img src="imgs/GitHub.png" alt="GitHub" width="14px"
-        /></a>
-        <a href="mailto:liam@keegan.ch">liam@keegan.ch</a>
-      </div>
-    </div>
-  </body>
-</html>
+{% for section in site.data.teaching %}
+<h2>{{ section.title }}</h2>
+<p>{{ section.description }}:</p>
+<ul>
+  {% for item in section.items %}
+  <li>
+    {{ item.title }} ({{ item.year }}):
+    <a href="{{ item.slides }}">slides</a>,
+    <a href="{{ item.code }}">code</a>
+  </li>
+  {% endfor %}
+</ul>
+{% endfor %}
