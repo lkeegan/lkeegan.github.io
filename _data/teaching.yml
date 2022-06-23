@@ -35,9 +35,9 @@
       code: https://ssciwr.github.io/lunch-time-python/lunchtime2/lunchtime2.ipynb
 
 - title: Talks
-  description: 'Half-hour <a href="https://ssciwr.github.io/lunch-time-python/">SSC Lunch Time Python</a> talks'
+  description: 'Talks about software development'
   items:
     - year: 2022
-      title: numba
-      slides: https://ssciwr.github.io/lunch-time-python/lunchtime6/lunchtime6.slides.html
-      code: https://ssciwr.github.io/lunch-time-python/lunchtime6/lunchtime6.ipynb
+      title: Open Research Software - Best Practices
+      slides: talks/EU2022.pdf
+      code: https://zenodo.org/record/6373605#.YrR13NJBxec
