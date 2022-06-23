@@ -38,109 +38,19 @@
         </div>
         <div id="txt">
           <h2>Brief CV</h2>
-          <ul class="bullet">
+          <ul>
+            {% for item in site.data.cv %}
             <li>
-              2020-present:
+              {{ item.year }}:
               <ul>
-                <li>Research Software Engineer</li>
+                <li>{{ item.position }}</li>
                 <li>
-                  <em
-                    ><a href="https://ssc.iwr.uni-heidelberg.de/"
-                      >Scientific Software Center</a
-                    >, Heidelberg University, Germany.</em
-                  >
+                  <a href="{{ item.url }}">{{ item.organization }}</a>,
+                  <em>{{ item.location }}.</em>
                 </li>
               </ul>
             </li>
-            <li>
-              2019-2021:
-              <ul>
-                <li>Scientific Software Developer</li>
-                <li>
-                  <em
-                    ><a
-                      href="https://www.cos.uni-heidelberg.de/index.php/u.kummer?l=_e"
-                      >Department for modelling of biological processes</a
-                    >, Heidelberg University, Germany.</em
-                  >
-                </li>
-              </ul>
-            </li>
-            <li>
-              2019:
-              <ul>
-                <li>Scientific Software Engineer, HPC.</li>
-                <li>
-                  <em
-                    ><a href="https://bluebrain.epfl.ch/">Blue Brain Project</a
-                    >, EPFL, Geneva, Switzerland.</em
-                  >
-                </li>
-              </ul>
-            </li>
-            <li>
-              2017-2018:
-              <ul>
-                <li>Postdoctoral Researcher.</li>
-                <li>
-                  <em
-                    ><a href="https://ethz.ch/de.html">ETH</a>, Zurich,
-                    Switzerland.</em
-                  >
-                </li>
-              </ul>
-            </li>
-            <li>
-              2013-2016:
-              <ul>
-                <li>Senior Fellow.</li>
-                <li>
-                  <em
-                    ><a href="https://theory.cern/"
-                      >Department of Theoretical Physics, CERN</a
-                    >, Geneva, Switzerland.</em
-                  >
-                </li>
-              </ul>
-            </li>
-            <li>
-              2011-2013:
-              <ul>
-                <li>Postdoctoral Researcher.</li>
-                <li>
-                  <em
-                    ><a href="https://www.ift.uam-csic.es/en"
-                      >Instituto de Física Teórica UAM/CSIC</a
-                    >, Madrid, Spain.</em
-                  >
-                </li>
-              </ul>
-            </li>
-            <li>
-              2007-2011:
-              <ul>
-                <li>
-                  PhD: &#8220;<a href="thesis.pdf"
-                    >Dynamical Electroweak Symmetry Breaking on the Lattice</a
-                  >&#8221;
-                </li>
-                <li>Supervisor: Prof. Luigi Del Debbio</li>
-                <li>
-                  <em
-                    ><a href="https://www.ph.ed.ac.uk/particle-physics-theory"
-                      >Edinburgh University</a
-                    >, UK.</em
-                  >
-                </li>
-              </ul>
-            </li>
-            <li>
-              2003-2007:
-              <ul>
-                <li>MPhys</li>
-                <li><em>Lincoln College, Oxford University, UK.</em></li>
-              </ul>
-            </li>
+            {% endfor %}
           </ul>
         </div>
       </div>
