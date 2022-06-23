@@ -8,11 +8,9 @@ image_link: CV-Liam-Keegan.pdf
 ## Brief CV
 
 {% for item in site.data.cv %}
-
 - {{ item.year }}:
   - {{ item.position }}
   - [{{ item.organization }}]({{ item.url }}), _{{ item.location }}_
-
 {% endfor %}
 
 ## Full CV

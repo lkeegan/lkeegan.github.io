@@ -1,0 +1,101 @@
+- year: 2018
+  event: Seminar
+  location: CERN, Switzerland
+  title: RHMC with Multiple Pseudofermions and Block Solvers
+  url: talks/Cern2018.pdf
+
+- year: 2018
+  event: XQCD
+  location: Frankfurt, Germany
+  title: RHMC with Block Solvers and Multiple Pseudofermions [poster]
+  url: talks/XQCD2018.pdf
+
+- year: 2015
+  event: Lattice 2015
+  location: Kobe, Japan
+  title: Schwinger Model Mass Anomalous Dimension
+  url: talks/Lattice2015.pdf
+
+- year: 2014
+  event: Lattice 2014
+  location: New York, USA
+  title: TEK twisted gradient flow running coupling
+  url: talks/Lattice2014.pdf
+
+- year: 2014
+  event: Seminar
+  location: Fermilab, Chicago, USA
+  title: Large–N twisted volume reduction of QCD on the lattice
+  url: talks/Fermilab2014.pdf
+
+- year: 2013
+  event: Lattice 2013
+  location: Mainz, Germany
+  title: Mass anomalous dimension from large N twisted volume reduction
+  url: talks/Lattice2013.pdf
+
+- year: 2013
+  event: "Workshop: Strongly interacting dynamics beyond the Standard Model and the Higgs boson"
+  location: Higgs Centre, Edinburgh University, UK
+  title: Large N volume reduction of Minimal Walking Technicolor
+  url: talks/Edinburgh2013.pdf
+
+- year: 2012
+  event: Seminar
+  location: IFT-UAM/CSIC Madrid, Spain
+  title: Mass Anomalous Dimension at Large N
+  url: talks/Madrid2012.pdf
+
+- year: 2012
+  event: Lattice 2012
+  location: Cairns, Queensland, Australia
+  title: Mass Anomalous Dimension at Large N
+  url: talks/Lattice2012.pdf
+
+- year: 2011
+  event: Lattice 2011
+  location: Squaw Valley, CA, USA
+  title: Systematic Errors of the MCRG Method
+  url: talks/Lattice2011.pdf
+
+- year: 2011
+  event: Workshop in memory of Jan Wennekers
+  location: Edinburgh University, UK
+  title: MCRG Minimal Walking Technicolor
+  url: talks/YWedinburgh2011.pdf
+
+- year: 2010
+  event: Seminar
+  location: Valencia University, Spain
+  title: Walking Technicolor on the Lattice
+  url: talks/Valencia2010.pdf
+
+- year: 2010
+  event: Lattice 2010
+  location: Villasimius, Sardinia
+  title: MCRG Minimal Walking Technicolor
+  url: talks/Lattice2010.pdf
+
+- year: 2010
+  event: MCFP Workshop on Large N Gauge Theories
+  location: University of Maryland, USA
+  title: Walking Technicolor on the Lattice
+  url: talks/LargeN2010.pdf
+
+- year: 2010
+  event: Seminar
+  location: Edinburgh University, UK
+  title: Minimal Walking Technicolor
+  url: talks/Seminar2010.pdf
+
+- year: 2009
+  event: HEP Young Theorists' Forum
+  location: IPPP, Durham, UK
+  title: Strong Dynamics on the Lattice
+  url: talks/HEPforum2009.pdf
+
+- year: 2008
+  event: HEP Young Theorists' Forum
+  location: IPPP, Durham, UK
+  title: Walking Technicolor on the Lattice
+  url: talks/HEPforum2008.pdf
