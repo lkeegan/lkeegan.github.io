@@ -16,7 +16,7 @@ Slides from some of the conference talks and seminars that I have given:
 {%- for item in site.data.physics -%}
 - {{ item.event }}. _{{ item.location }}. {{ item.year }}_
   - [{{ item.title }}]({{ item.url }})
-{%- endfor -%}
+{% endfor %}
 
 ## Teaching
 
