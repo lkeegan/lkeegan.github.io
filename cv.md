@@ -2,7 +2,7 @@
 title: CV
 layout: default
 image: cv.jpg
-image_link: CV-Liam-Keegan.pdf
+image_link: docs/CV-Liam-Keegan.pdf
 ---
 
 ## Brief CV
@@ -15,4 +15,4 @@ image_link: CV-Liam-Keegan.pdf
 
 ## Full CV
 
-Download my [CV in pdf format](CV-Liam-Keegan.pdf).
+Download my [CV in pdf format](docs/CV-Liam-Keegan.pdf).
