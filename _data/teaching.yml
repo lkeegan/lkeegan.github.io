@@ -11,7 +11,7 @@
       slides: https://github.com/ssciwr/cpp-benchmarking/raw/main/slides/slides.pdf
       code: https://github.com/ssciwr/cpp-benchmarking
 
-    - year: 2021, 2022
+    - year: 2022, 2021
       title: Data Exploration with Python and Jupyter
       slides: https://ssciwr.github.io/jupyter-data-exploration/
       code: https://github.com/ssciwr/jupyter-data-exploration
@@ -19,6 +19,11 @@
 - title: Lunch Time Python
   description: 'Half-hour <a href="https://ssciwr.github.io/lunch-time-python/">SSC Lunch Time Python</a> talks'
   items:
+    - year: 2022
+      title: mypy
+      slides: https://ssciwr.github.io/lunch-time-python/lunchtime9/lunchtime9.slides.html
+      code: https://ssciwr.github.io/lunch-time-python/lunchtime9/lunchtime9.ipynb
+
     - year: 2022
       title: numba
       slides: https://ssciwr.github.io/lunch-time-python/lunchtime6/lunchtime6.slides.html
