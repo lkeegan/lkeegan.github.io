@@ -10,11 +10,10 @@ I am a research software engineer in the
 [Scientific Software Center](https://ssc.iwr.uni-heidelberg.de)
 of the
 [University of Heidelberg](https://www.uni-heidelberg.de/en),
-where I work on a range of different research software development projects,
+where I work on a range of different [research software development projects](projects.html),
 typically involving c++ and/or Python.
-I also give talks and courses on software development topics
-for researchers and scientists,
-see the [teaching](teaching.html) page for slides and code samples.
+I also give [talks and courses]([teaching](teaching.html)) on software development topics
+for researchers and scientists.
 
 I previously worked as a scientific software developer in the
 [Department for modelling of biological processes](https://www.cos.uni-heidelberg.de/en/research-groups/modelling-of-biological-processes),

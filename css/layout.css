@@ -107,8 +107,12 @@
   list-style-type: square;
 }
 
-#content table td {
-  padding: 0px 0px 0px 10px;
+#content ul li {
+  margin: 0.5em 0;
+}
+
+#content ul ul li {
+  margin: 0.2em 0;
 }
 
 #content a {
