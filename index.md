@@ -12,7 +12,7 @@ of the
 [University of Heidelberg](https://www.uni-heidelberg.de/en),
 where I work on a range of different [research software development projects](projects.html),
 typically involving c++ and/or Python.
-I also give [talks and courses]([teaching](teaching.html)) on software development topics
+I also give [talks and courses](teaching.html) on software development topics
 for researchers and scientists.
 
 I previously worked as a scientific software developer in the

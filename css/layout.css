@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 #container {
   position: middle;
   margin: 0 auto;
@@ -74,9 +78,11 @@
     float: left;
     padding: 1em;
   }
-
   #header {
     background-position: right;
+  }
+  #container {
+    margin: 16px auto;
   }
 }
 
@@ -86,6 +92,7 @@
   }
   #header {
     background-position: left;
+    padding: 0px;
   }
 }
 
