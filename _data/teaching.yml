@@ -1,6 +1,11 @@
 - title: Compact Courses
   description: 'Half-day <a href="https://ssc.iwr.uni-heidelberg.de/events">SSC compact courses</a>'
   items:
+    - year: 2023
+      title: Effective Software Testing
+      slides: https://github.com/ssciwr/effective-software-testing/raw/main/slides/slides.pdf
+      code: https://github.com/ssciwr/effective-software-testing
+
     - year: 2022
       title: High Performance C++
       slides: https://github.com/ssciwr/high-performance-cpp/raw/main/slides/slides.pdf
