@@ -3,7 +3,7 @@
   items:
     - year: 2023
       title: Effective Software Testing
-      slides: https://github.com/ssciwr/effective-software-testing/raw/main/slides/slides.pdf
+      slides: https://github.com/ssciwr/effective-software-testing/raw/main/docs/slides/slides.pdf
       code: https://github.com/ssciwr/effective-software-testing
 
     - year: 2022
