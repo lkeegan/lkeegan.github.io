@@ -1,5 +1,5 @@
 - title: Compact Courses
-  description: 'Half-day <a href="https://ssc.iwr.uni-heidelberg.de/events">SSC compact courses</a>'
+  description: 'Half-day <a href="https://ssc.iwr.uni-heidelberg.de/events">SSC compact courses</a> on software development'
   items:
     - year: 2023
       title: Effective Software Testing
@@ -22,7 +22,7 @@
       code: https://github.com/ssciwr/jupyter-data-exploration
 
 - title: Lunch Time Python
-  description: 'Half-hour <a href="https://ssciwr.github.io/lunch-time-python/">SSC Lunch Time Python</a> talks'
+  description: 'Half-hour <a href="https://ssciwr.github.io/lunch-time-python/">SSC Lunch Time Python</a> talks about Python libraries'
   items:
     - year: 2022
       title: mypy
@@ -45,7 +45,7 @@
       code: https://ssciwr.github.io/lunch-time-python/lunchtime2/lunchtime2.ipynb
 
 - title: Talks
-  description: 'Talks about software development'
+  description: 'Talks about software development best practices'
   items:
     - year: 2022
       title: Open Research Software - Best Practices
