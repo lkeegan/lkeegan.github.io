@@ -14,7 +14,7 @@
     }
   ],
   "id": "/",
-  "start_url": "/",
+  "start_url": "/test",
   "background_color": "#3C6871",
   "display": "fullscreen",
   "scope": "/",
