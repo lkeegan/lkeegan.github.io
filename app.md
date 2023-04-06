@@ -17,4 +17,5 @@ with no way for the user to navigate away from this web site.
 
 ## To close it
 
-On android swipe down from the top of the screen
+On android swipe down from the top of the screen to open the notification settings,
+from there you should be able to close the app somehow...

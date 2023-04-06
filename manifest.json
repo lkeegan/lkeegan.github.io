@@ -14,10 +14,10 @@
     }
   ],
   "id": "/",
-  "start_url": "/test",
+  "start_url": "/app",
   "background_color": "#3C6871",
   "display": "fullscreen",
-  "scope": "/",
+  "scope": "/app",
   "theme_color": "#3C6871",
   "description": "testing PWA on android"
 }
