@@ -1,6 +1,6 @@
 ---
 title: TestApp
-layout: default
+layout: app
 ---
 
 ## This is a test PWA app
