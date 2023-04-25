@@ -16,6 +16,12 @@
       type="text/css"
       media="screen"
     />
+    <script>
+      if ("serviceWorker" in navigator) {
+        console.log("Registering serviceworker!");
+        navigator.serviceWorker.register("/serviceworker.js");
+      }
+    </script>
   </head>
   <body>
     <div id="container">
