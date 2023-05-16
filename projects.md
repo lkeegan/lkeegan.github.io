@@ -12,7 +12,7 @@ layout: default
 {% for item in section.items -%}
 - [{{ item.title }}]({{ item.url }}) ({{ item.year }})
   - {{item.desc}}
-  - [Source code]({{ item.code }}) \[_{{item.stack}}_\]
+  - [Source code]({{ item.code }}) {% for tag in item.tags -%} `{{tag}}`{:.tag} {% endfor %}
 {% endfor %}
 
 {% endfor %}

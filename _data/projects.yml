@@ -5,28 +5,45 @@
       title: Spatial Model Editor
       desc: GUI tool to create and simulate spatial models of bio-chemical reactions
       url: https://spatial-model-editor.github.io
-      stack: "C++17, Qt6, pybind11, CMake, Catch2"
+      tags:
+        - c++17
+        - Qt6
+        - pybind11
+        - CMake
+        - Catch2
       code: https://github.com/spatial-model-editor/spatial-model-editor
 
     - year: 2020-2023
       title: Hammingdist
       desc: Fast C++ hamming distance implementation with a Python interface
       url: https://pypi.org/project/hammingdist
-      stack: "C++17, pybind11, CMake, Catch2"
+      tags:
+        - c++17
+        - pybind11
+        - CMake
+        - Catch2
       code: https://github.com/ssciwr/hammingdist
 
     - year: 2021
       title: pybind11-numpy-example
       desc: "Simple example of pybind11/numpy including CI to build wheels and deploy to PyPI"
       url: https://pypi.org/project/pybind11-numpy-example
-      stack: "C++11, pybind11, CMake, Catch2"
+      tags:
+        - c++11
+        - pybind11
+        - CMake
+        - Catch2
       code: https://github.com/ssciwr/pybind11-numpy-example
 
     - year: 2018
       title: blockCG
       desc: "Reference C++ implementation of SBCGrQ and other block CG solvers from [1808.01829](https://arxiv.org/abs/1808.01829)"
       url: https://github.com/lkeegan/blockCG
-      stack: "C++11, CMake, Eigen, Catch2"
+      tags:
+        - c++11
+        - Eigen
+        - CMake
+        - Catch2
       code: https://github.com/lkeegan/blockCG
 
 - title: Python Projects
@@ -36,50 +53,70 @@
       title: Motor Task Prototype
       desc: GUI tool to create and run motor skill aquisition experiments
       url: https://ssciwr.github.io/motor-task-prototype
-      stack: "Python, PyQt5"
+      tags:
+        - Python
+        - PyQt
       code: https://github.com/ssciwr/motor-task-prototype
 
     - year: 2021
       title: sme-contrib
       desc: Parameter fitting and plotting functionality for Spatial Model Editor
       url: https://sme-contrib.readthedocs.io/
-      stack: "Python"
+      tags:
+        - Python
       code: https://github.com/spatial-model-editor/sme-contrib
 
     - year: 2015
       title: openQCD-input-file-editor
       desc: GUI tool to edit and validate openQCD simulation code input files
       url: https://pypi.org/project/openQCD-input-file-editor
-      stack: "Python2.7, PyQt4"
+      tags:
+        - Python
+        - PyQt
       code: https://github.com/lkeegan/openQCD-input-file-editor
 
 - title: Web Projects
   description: 'Some web development projects I have worked on'
   items:
     - year: 2022
-      title: CircuitSEQ
-      desc: Website and REST API for a DNA sequencing service
+      title: SampleFlow
+      desc: Website and REST API to manage DNA sequencing samples and results
       url: https://circuitseq.iwr.uni-heidelberg.de
-      stack: "vue.js, Flask, docker"
-      code: https://github.com/ssciwr/circuit_seq
+      tags:
+        - Typescript
+        - Python
+        - vue.js
+        - Flask
+        - docker
+      code: https://github.com/ssciwr/sample_flow
 
     - year: 2022
       title: IWR Interactive Visualization
       desc: Interactive visualization of IWR research activities
       url: https://ssciwr.github.io/iwr-interactive-visualization
-      stack: "TypeScript, svg.js, npm"
+      tags:
+        - TypeScript
+        - svg.js
+        - npm
       code: https://github.com/ssciwr/iwr-interactive-visualization
 
     - year: 2019-2023
       title: Spatial Model Editor Website
       desc: Simple static website with content generated from yaml
       url: https://spatial-model-editor.github.io
-      stack: "Pug, JavaScript, Bootstrap5, npm"
+      tags:
+        - Pug
+        - JavaScript
+        - Bootstrap
+        - npm
       code: https://github.com/spatial-model-editor/spatial-model-editor.github.io
 
     - year: 2017-current
       title: This website
       desc: Simple static website with content generated from yaml and markdown
       url: https://www.keegan.ch
-      stack: "Jekyll, HTML, CSS"
+      tags:
+        - Jekyll
+        - yaml
+        - CSS
       code: https://github.com/lkeegan/lkeegan.github.io
