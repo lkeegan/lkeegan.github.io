@@ -50,13 +50,13 @@
   description: 'Some of the Python software development projects I have worked on'
   items:
     - year: 2022-2023
-      title: Motor Task Prototype
-      desc: GUI tool to create and run motor skill aquisition experiments
-      url: https://ssciwr.github.io/motor-task-prototype
+      title: Visuomotor Serial Targeting Task (VSTT)
+      desc: GUI tool to create, run and analyse motor skill aquisition experiments
+      url: https://vstt.readthedocs.io
       tags:
         - Python
         - PyQt
-      code: https://github.com/ssciwr/motor-task-prototype
+      code: https://github.com/ssciwr/vstt
 
     - year: 2021
       title: sme-contrib
@@ -78,7 +78,7 @@
 - title: Web Projects
   description: 'Some web development projects I have worked on'
   items:
-    - year: 2022
+    - year: 2022-2023
       title: SampleFlow
       desc: Website and REST API to manage DNA sequencing samples and results
       url: https://circuitseq.iwr.uni-heidelberg.de
@@ -111,7 +111,7 @@
         - npm
       code: https://github.com/spatial-model-editor/spatial-model-editor.github.io
 
-    - year: 2017-current
+    - year: 2017-2023
       title: This website
       desc: Simple static website with content generated from yaml and markdown
       url: https://www.keegan.ch
