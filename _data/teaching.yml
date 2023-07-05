@@ -47,6 +47,10 @@
 - title: Talks
   description: 'Talks about software development best practices'
   items:
+    - year: 2023
+      title: Open Research Software - Best Practices
+      slides: talks/EU2023.pdf
+      code: https://zenodo.org/
     - year: 2022
       title: Open Research Software - Best Practices
       slides: talks/EU2022.pdf
