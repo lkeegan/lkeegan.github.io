@@ -2,6 +2,11 @@
   description: 'Half-day <a href="https://ssc.iwr.uni-heidelberg.de/events">SSC compact courses</a> on software development'
   items:
     - year: 2023
+      title: Introduction to Python Testing
+      slides: https://github.com/ssciwr/python-testing-intro/raw/main/docs/slides/slides.pdf
+      code: https://github.com/ssciwr/python-testing-intro
+
+    - year: 2023
       title: Effective Software Testing
       slides: https://github.com/ssciwr/effective-software-testing/raw/main/docs/slides/slides.pdf
       code: https://github.com/ssciwr/effective-software-testing
