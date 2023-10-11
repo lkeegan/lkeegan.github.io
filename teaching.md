@@ -10,7 +10,8 @@ layout: default
 {{ section.description }}:
 
 {% for item in section.items -%}
-- {{ item.title }} ({{ item.year }}): [slides]({{ item.slides }}), [code]({{ item.code }})
+- {{ item.title }} ({{ item.year }})
+{% for link in item.links -%}[{{ link[0] }}]({{ link[1] }}){:.tag} {% endfor %}
 {% endfor %}
 
 {% endfor %}

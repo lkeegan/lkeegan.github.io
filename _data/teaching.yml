@@ -3,60 +3,75 @@
   items:
     - year: 2023
       title: Introduction to Python Testing
-      slides: https://github.com/ssciwr/python-testing-intro/raw/main/docs/slides/slides.pdf
-      code: https://github.com/ssciwr/python-testing-intro
+      links:
+        website: https://ssciwr.github.io/python-testing-intro/
+        code: https://github.com/ssciwr/python-testing-intro
+        pdf slides: https://github.com/ssciwr/python-testing-intro/raw/main/docs/slides/slides.pdf
 
     - year: 2023
       title: Effective Software Testing
-      slides: https://github.com/ssciwr/effective-software-testing/raw/main/docs/slides/slides.pdf
-      code: https://github.com/ssciwr/effective-software-testing
+      links:
+        website: https://ssciwr.github.io/effective-software-testing/
+        code: https://github.com/ssciwr/effective-software-testing
+        pdf slides: https://github.com/ssciwr/effective-software-testing/raw/main/docs/slides/slides.pdf
 
     - year: 2022
       title: High Performance C++
-      slides: https://github.com/ssciwr/high-performance-cpp/raw/main/slides/slides.pdf
-      code: https://github.com/ssciwr/high-performance-cpp
+      links:
+        website: https://ssciwr.github.io/high-performance-cpp/
+        code: https://github.com/ssciwr/high-performance-cpp
+        pdf slides: https://github.com/ssciwr/high-performance-cpp/raw/main/slides/slides.pdf
 
     - year: 2022
       title: Performance Benchmarking C++ Applications
-      slides: https://github.com/ssciwr/cpp-benchmarking/raw/main/slides/slides.pdf
-      code: https://github.com/ssciwr/cpp-benchmarking
+      links:
+        website: https://ssciwr.github.io/cpp-benchmarking/
+        code: https://github.com/ssciwr/cpp-benchmarking
+        pdf slides: https://github.com/ssciwr/cpp-benchmarking/raw/main/slides/slides.pdf
 
     - year: 2022, 2021
       title: Data Exploration with Python and Jupyter
-      slides: https://ssciwr.github.io/jupyter-data-exploration/
-      code: https://github.com/ssciwr/jupyter-data-exploration
+      links:
+        web slides: https://ssciwr.github.io/jupyter-data-exploration/
+        code: https://github.com/ssciwr/jupyter-data-exploration
 
 - title: Lunch Time Python
   description: 'Half-hour <a href="https://ssciwr.github.io/lunch-time-python/">SSC Lunch Time Python</a> talks about Python libraries'
   items:
     - year: 2022
       title: mypy
-      slides: https://ssciwr.github.io/lunch-time-python/lunchtime9/lunchtime9.slides.html
-      code: https://ssciwr.github.io/lunch-time-python/lunchtime9/lunchtime9.ipynb
+      links:
+        web slides: https://ssciwr.github.io/lunch-time-python/lunchtime9/lunchtime9.slides.html
+        jupyter notebook: https://ssciwr.github.io/lunch-time-python/lunchtime9/lunchtime9.ipynb
 
     - year: 2022
       title: numba
-      slides: https://ssciwr.github.io/lunch-time-python/lunchtime6/lunchtime6.slides.html
-      code: https://ssciwr.github.io/lunch-time-python/lunchtime6/lunchtime6.ipynb
+      links:
+        web slides: https://ssciwr.github.io/lunch-time-python/lunchtime6/lunchtime6.slides.html
+        jupyter notebook: https://ssciwr.github.io/lunch-time-python/lunchtime6/lunchtime6.ipynb
 
     - year: 2022
       title: pytest
-      slides: https://ssciwr.github.io/lunch-time-python/lunchtime4/lunchtime4.slides.html
-      code: https://ssciwr.github.io/lunch-time-python/lunchtime4/lunchtime4.ipynb
+      links:
+        web slides: https://ssciwr.github.io/lunch-time-python/lunchtime4/lunchtime4.slides.html
+        jupyter notebook: https://ssciwr.github.io/lunch-time-python/lunchtime4/lunchtime4.ipynb
 
     - year: 2021
       title: sympy
-      slides: https://ssciwr.github.io/lunch-time-python/lunchtime2/lunchtime2.slides.html
-      code: https://ssciwr.github.io/lunch-time-python/lunchtime2/lunchtime2.ipynb
+      links:
+        web slides: https://ssciwr.github.io/lunch-time-python/lunchtime2/lunchtime2.slides.html
+        jupyter notebook: https://ssciwr.github.io/lunch-time-python/lunchtime2/lunchtime2.ipynb
 
 - title: Talks
   description: 'Talks about software development best practices'
   items:
     - year: 2023
       title: Open Research Software - Best Practices
-      slides: talks/EU2023.pdf
-      code: https://zenodo.org/record/8132331
+      links:
+        zenodo: https://zenodo.org/record/8132331
+        pdf slides: talks/EU2023.pdf
     - year: 2022
       title: Open Research Software - Best Practices
-      slides: talks/EU2022.pdf
-      code: https://zenodo.org/record/6373605#.YrR13NJBxec
+      links:
+        zenodo: https://zenodo.org/record/6373605#.YrR13NJBxec
+        pdf slides: talks/EU2022.pdf
