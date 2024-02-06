@@ -6,7 +6,7 @@
       desc: GUI tool to create and simulate spatial models of bio-chemical reactions
       url: https://spatial-model-editor.github.io
       tags:
-        - c++17
+        - c++20
         - Qt6
         - pybind11
         - CMake
