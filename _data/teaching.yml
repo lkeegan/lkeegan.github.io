@@ -15,7 +15,7 @@
         code: https://github.com/ssciwr/python-testing-intro
         pdf slides: https://github.com/ssciwr/python-testing-intro/raw/main/docs/slides/slides.pdf
 
-    - year: 2023
+    - year: 2024, 2023
       title: Effective Software Testing
       links:
         website: https://ssciwr.github.io/effective-software-testing/
@@ -36,7 +36,7 @@
         code: https://github.com/ssciwr/cpp-benchmarking
         pdf slides: https://github.com/ssciwr/cpp-benchmarking/raw/main/slides/slides.pdf
 
-    - year: 2022, 2021
+    - year: 2024, 2022, 2021
       title: Data Exploration with Python and Jupyter
       links:
         web slides: https://ssciwr.github.io/jupyter-data-exploration/
@@ -82,3 +82,23 @@
       links:
         zenodo: https://zenodo.org/record/6373605#.YrR13NJBxec
         pdf slides: talks/EU2022.pdf
+
+- title: Template Repositories
+  description: 'Template repositories to kick-start a project'
+  items:
+    - year: 2021
+      title: "Create and publish web slides online from a jupyter notebook"
+      links:
+        jupyter-slides-template: https://github.com/ssciwr/jupyter-slides-template
+    - year: 2021
+      title: "Provide c++ data to Python as numpy arrays using pybind11"
+      links:
+        pybind11-numpy-example: https://github.com/ssciwr/pybind11-numpy-example
+    - year: 2021
+      title: "Create a simple matlab project with tests and continuous integration"
+      links:
+        matlab-project-template: https://github.com/ssciwr/matlab-project-template
+    - year: 2020
+      title: "Create a simple c++ project with tests and continuous integration"
+      links:
+        cpp-project-template: https://github.com/ssciwr/cpp-project-template

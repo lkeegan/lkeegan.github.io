@@ -8,7 +8,7 @@
       tags:
         - c++20
         - Qt6
-        - pybind11
+        - nanobind
         - CMake
         - Catch2
       code: https://github.com/spatial-model-editor/spatial-model-editor
