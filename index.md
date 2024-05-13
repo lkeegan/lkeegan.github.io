@@ -13,7 +13,7 @@ of the
 where I work on a range of different [research software development projects](projects.html),
 typically involving c++ and/or Python.
 I also give [talks and courses](teaching.html) on software development topics
-for researchers and scientists.
+for researchers and scientists, and [contribute](https://github.com/lkeegan) to a variety of open source projects.
 
 I previously worked as a scientific software developer in the
 [Department for modelling of biological processes](https://www.cos.uni-heidelberg.de/en/research-groups/modelling-of-biological-processes),
