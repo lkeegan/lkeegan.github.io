@@ -22,6 +22,8 @@ body {
   height: 60px;
   background-image: url("../imgs/header.jpg");
   background-repeat: no-repeat;
+  background-position: right 0px top 0px;
+  background-size: auto 100%;
   color: #fff;
   padding: 20px;
 }
@@ -103,9 +105,6 @@ body {
     max-width: 300px;
     float: left;
     padding: 1em;
-  }
-  #header {
-    background-position: right;
   }
   #container {
     margin: 16px auto;
