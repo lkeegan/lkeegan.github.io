@@ -13,7 +13,7 @@ body {
   border-width: 0px;
   border-color: #333;
   max-width: 1200px;
-  background: #f9f9f9;
+  background: #f9f9fc;
   font-family: Arial, sans-serif;
 }
 
@@ -57,7 +57,7 @@ body {
   float: left;
   height: 28px;
   width: 100%;
-  background: #333;
+  background: #234;
 }
 
 #navigation ul {
@@ -81,15 +81,15 @@ body {
 
 #navigation li a.active {
   color: #000;
-  background-color: #f9f9f9;
+  background-color: #f9f9fc;
 }
 
 #navigation li a:hover {
-  background-color: #888;
+  background-color: #89a;
 }
 
 #navigation li a.active:hover {
-  background-color: #f9f9f9;
+  background-color: #f9f9fc;
 }
 
 #content {
@@ -156,23 +156,33 @@ body {
 
 #footer {
   bottom: 0;
-  background: #333;
+  background: #234;
   text-align: right;
-  height: 28px;
+  height: 26px;
   width: 100%;
   line-height: 14px;
   font-size: 14px;
   color: #fff;
 }
 
-#footer a {
+#footer ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+#footer li a {
   display: block;
   float: right;
   padding: 6px;
   color: #fff;
   text-decoration: none;
+  border-right: 1px solid #fff;
 }
 
-#footer img {
+#footer li a:hover {
+  background-color: #89a;
+}
+
+#footer li img {
   vertical-align: middle;
 }
