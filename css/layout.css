@@ -133,13 +133,21 @@ body {
 }
 
 #content h2 {
-  color: #000;
+  color: #234;
   font-size: 160%;
-  margin: 0.5em 0 0.5em 0em;
+  padding: 5px 5px 5px 5px;
+  border-top: solid 0px #234;
+  border-bottom: solid 2px #234;
+}
+
+#content p {
+  color: #234;
+  padding: 5px 5px 5px 5px;
 }
 
 #content ul {
   list-style-type: square;
+  color: #234;
 }
 
 #content ul li {
