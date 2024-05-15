@@ -1,5 +1,6 @@
 ---
 title: Teaching
+image: teaching.jpg
 layout: default
 ---
 

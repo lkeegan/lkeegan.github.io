@@ -53,18 +53,8 @@ navbar_pages:
           {% endfor %}
         </ul>
       </div>
-      <div id="content">
-        {% if page.image != null %}
-        <div id="pic">
-          {% if page.image_link != null %}
-          <a href="{{ page.image_link }}">
-            {% endif %}
-            <img src="imgs/{{ page.image }}" alt="photo" />
-            {% if page.image_link != null %}
-          </a>
-          {% endif %}
-        </div>
-        {% endif %}
+      <div id="content" style="background-image:url(imgs/{{ page.image }});">
+        <div id="pic"></div>
         <div id="txt">{{ content }}</div>
       </div>
       <div id="footer">

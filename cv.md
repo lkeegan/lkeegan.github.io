@@ -15,4 +15,4 @@ image_link: docs/CV-Liam-Keegan.pdf
 
 ## Full CV
 
-Download my [CV in pdf format](docs/CV-Liam-Keegan.pdf).
+- Download my [CV in pdf format](docs/CV-Liam-Keegan.pdf).

@@ -15,6 +15,7 @@ body {
   max-width: 1200px;
   background: #f9f9fc;
   font-family: Arial, sans-serif;
+  color: #234;
 }
 
 #header {
@@ -94,9 +95,12 @@ body {
 
 #content {
   clear: left;
-  padding: 1em;
-  padding-bottom: 3em;
+  padding: 24px;
+  margin-bottom: 32px;
   overflow: auto;
+  background-repeat: no-repeat;
+  background-size: 25% auto;
+  background-position: 24px 37px;
 }
 
 @media screen and (min-width: 768px) {
@@ -112,8 +116,9 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  #pic {
-    display: none !important;
+  #content {
+    background-image: none !important;
+    padding: 12px;
   }
   #header {
     background-position: left;
@@ -124,25 +129,18 @@ body {
   }
 }
 
-#pic img {
-  width: 100%;
-}
-
 #txt {
   overflow: hidden;
 }
 
 #content h2 {
-  color: #234;
   font-size: 160%;
   padding: 5px 5px 5px 5px;
-  border-top: solid 0px #234;
   border-bottom: solid 2px #234;
 }
 
 #content p {
-  color: #234;
-  padding: 5px 5px 5px 5px;
+  padding: 5px;
 }
 
 #content ul {

@@ -1,5 +1,6 @@
 ---
 title: Physics
+image: physics.jpg
 layout: default
 ---
 

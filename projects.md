@@ -1,5 +1,6 @@
 ---
 title: Projects
+image: projects.jpg
 layout: default
 ---
 
