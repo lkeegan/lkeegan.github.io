@@ -33,25 +33,27 @@ navbar_pages:
   <body>
     <div id="container">
       <div id="header">
-        <h1>Liam Keegan</h1>
-        <p>
-          Scientific Software Developer and High Performance Computing expert
-        </p>
-      </div>
-      <div id="navigation">
-        <ul>
-          {% for navbar_page in layout.navbar_pages %}
-          <li>
-            {% if navbar_page.title == page.title %}
-            <a class="active" href="{{ navbar_page.url }}.html"
-              >{{ navbar_page.title }}</a
-            >
-            {% else %}
-            <a href="{{ navbar_page.url }}.html">{{ navbar_page.title}}</a>
-            {% endif %}
-          </li>
-          {% endfor %}
-        </ul>
+        <div id="title">
+          <h1>Liam Keegan</h1>
+          <p>
+            Scientific Software Developer and High Performance Computing expert
+          </p>
+        </div>
+        <div id="navbar">
+          <ul>
+            {% for navbar_page in layout.navbar_pages %}
+            <li>
+              {% if navbar_page.title == page.title %}
+              <a class="active" href="{{ navbar_page.url }}.html"
+                >{{ navbar_page.title }}</a
+              >
+              {% else %}
+              <a href="{{ navbar_page.url }}.html">{{ navbar_page.title}}</a>
+              {% endif %}
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
       </div>
       <div id="content" style="background-image:url(imgs/{{ page.image }});">
         <div id="pic"></div>

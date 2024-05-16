@@ -1,9 +1,13 @@
 html {
   overflow-y: scroll;
+  height: 100%;
+  margin: 0;
 }
 
 body {
+  height: 100%;
   margin: 0;
+  background: #f9f9fc;
 }
 
 a {
@@ -15,125 +19,117 @@ a:visited {
 }
 
 #container {
-  horizontal-align: middle;
   margin: 0 auto;
-  border-style: solid;
-  border-width: 0px;
-  border-color: #333;
-  max-width: 1200px;
+  min-height: 100%;
+  min-width: 100%;
   background: #f9f9fc;
   font-family: Arial, sans-serif;
   color: #234;
 }
 
 #header {
-  background: #000;
-  height: 60px;
-  background-image: url("../imgs/header.jpg");
-  background-repeat: no-repeat;
-  background-position: right 0px top 0px;
-  background-size: auto 100%;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  background: #000 url("../imgs/header.jpg") no-repeat left 0 top 0;
+  background-size: 100% 100%;
+}
+
+#title {
+  margin: 0 auto;
+  min-width: 300px;
+  max-width: 1000px;
+  height: 3.5em;
   color: #fff;
-  padding: 20px;
+  padding: 1.2em;
 }
 
-#header h1 {
-  font-size: 32px;
-  line-height: 36px;
+#title h1 {
+  font-size: 2em;
   margin: 0;
 }
 
-#header p {
-  font-size: 18px;
-  line-height: 24px;
+#title p {
+  font-size: 1em;
   margin: 0;
 }
 
-.tag {
-  font-size: 12px;
-  font-style: italic;
-  border: 1px solid #000088;
-  background-color: #eeeeff;
-  border-radius: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  margin: 1px;
-}
-
-#navigation {
-  float: left;
-  height: 28px;
+#navbar {
+  margin: 0 auto;
+  min-width: 300px;
+  max-width: 1000px;
+  font-size: 1em;
+  line-height: 1.8em;
+  height: 2.2em;
   width: 100%;
-  background: #234;
 }
 
-#navigation ul {
+#navbar ul {
   margin: 0;
   padding: 0;
 }
 
-#navigation ul li {
+#navbar ul li {
   list-style-type: none;
   display: inline;
 }
 
-#navigation li a {
+#navbar li a {
   display: block;
   float: left;
-  padding: 5px 10px;
+  padding: 0.2em 0.6em;
+  border-radius: 3px 3px 0 0;
+  background: rgba(34, 51, 68, 0.5);
   color: #fff;
   text-decoration: none;
-  border-right: 1px solid #fff;
+  border-top: 1px solid rgba(249, 249, 252, 0.5);
+  border-right: 1px solid rgba(249, 249, 252, 0.5);
 }
 
-#navigation li a.active {
+#navbar li:last-child a {
+  border-right: none;
+}
+
+#navbar li a.active {
   color: #000;
   background-color: #f9f9fc;
 }
 
-#navigation li a:hover {
-  background-color: #89a;
+#navbar li a:hover {
+  background-color: rgba(249, 249, 252, 0.5);
 }
 
-#navigation li a.active:hover {
+#navbar li a.active:hover {
   background-color: #f9f9fc;
 }
 
 #content {
+  margin: 0 auto;
+  min-width: 300px;
+  max-width: 1000px;
   clear: left;
-  padding: 24px;
-  margin-bottom: 32px;
+  padding: 1em;
   overflow: auto;
   background-repeat: no-repeat;
-  background-size: 25% auto;
-  background-position: 24px 37px;
+  background-size: 250px auto;
+  background-position: 2em 3em;
 }
 
 @media screen and (min-width: 768px) {
   #pic {
-    width: 25%;
-    max-width: 300px;
+    width: 250px;
+    min-height: 100vh;
     float: left;
     padding: 1em;
-  }
-  #container {
-    margin: 16px auto;
   }
 }
 
 @media screen and (max-width: 768px) {
   #content {
     background-image: none !important;
-    padding: 12px;
   }
-  #header {
-    background-position: left;
-  }
-  #header p {
-    font-size: 12px;
-    line-height: 12px;
+  #title p {
+    font-size: 0.8em;
   }
 }
 
@@ -142,40 +138,52 @@ a:visited {
 }
 
 #content h2 {
-  font-size: 160%;
-  padding: 5px 5px 5px 5px;
+  font-size: 1.6em;
+  padding: 0.2em;
   border-bottom: solid 2px #234;
 }
 
 #content p {
-  padding: 5px;
+  padding: 0.3em;
 }
 
 #content ul {
   list-style-type: square;
+  font-size: 1em;
   color: #234;
 }
 
 #content ul li {
-  margin: 0.5em 0;
+  margin: 0.8em 0;
 }
 
 #content ul ul li {
-  margin: 0.2em 0;
+  margin: 0.5em 0;
 }
 
 #content a {
   text-decoration: none;
 }
 
+#content .tag {
+  font-size: 1em;
+  font-style: italic;
+  border: 1px solid #339;
+  border-radius: 2px;
+  background-color: #eeeeff;
+  padding: 0.1em 0.3em;
+  margin: 0 0.1em;
+}
+
 #footer {
+  position: sticky;
   bottom: 0;
+  z-index: 99;
   background: #234;
   text-align: right;
-  height: 26px;
+  height: 2em;
   width: 100%;
-  line-height: 14px;
-  font-size: 14px;
+  font-size: 1em;
   color: #fff;
 }
 
@@ -187,10 +195,9 @@ a:visited {
 #footer li a {
   display: block;
   float: right;
-  padding: 6px;
+  padding: 0.5em;
   color: #fff;
   text-decoration: none;
-  border-right: 1px solid #fff;
 }
 
 #footer li a:hover {
