@@ -154,11 +154,21 @@ a:visited {
 }
 
 #content ul li {
-  margin: 0.8em 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0.8em 0;
+  border-bottom: #223344 dotted 1px;
+}
+
+#content ul li:last-child {
+  border-bottom: none;
 }
 
 #content ul ul li {
+  list-style-type: square;
   margin: 0.5em 0;
+  padding: 0;
+  border-bottom: none;
 }
 
 #content a {
