@@ -3,102 +3,77 @@
   items:
     - year: 2024
       title: Python Packaging
-      links:
-        website: https://ssciwr.github.io/python-packaging/
-        code: https://github.com/ssciwr/python-packaging
-        pdf slides: https://github.com/ssciwr/python-packaging/raw/main/docs/slides/slides.pdf
+      link: https://ssciwr.github.io/python-packaging/
 
     - year: 2023
       title: Introduction to Python Testing
-      links:
-        website: https://ssciwr.github.io/python-testing-intro/
-        code: https://github.com/ssciwr/python-testing-intro
-        pdf slides: https://github.com/ssciwr/python-testing-intro/raw/main/docs/slides/slides.pdf
+      link: https://ssciwr.github.io/python-testing-intro/
 
     - year: 2024, 2023
       title: Effective Software Testing
-      links:
-        website: https://ssciwr.github.io/effective-software-testing/
-        code: https://github.com/ssciwr/effective-software-testing
-        pdf slides: https://github.com/ssciwr/effective-software-testing/raw/main/docs/slides/slides.pdf
+      link: https://ssciwr.github.io/effective-software-testing/
 
     - year: 2022
       title: High Performance C++
-      links:
-        website: https://ssciwr.github.io/high-performance-cpp/
-        code: https://github.com/ssciwr/high-performance-cpp
-        pdf slides: https://github.com/ssciwr/high-performance-cpp/raw/main/slides/slides.pdf
+      link: https://ssciwr.github.io/high-performance-cpp/
 
     - year: 2022
       title: Performance Benchmarking C++ Applications
-      links:
-        website: https://ssciwr.github.io/cpp-benchmarking/
-        code: https://github.com/ssciwr/cpp-benchmarking
-        pdf slides: https://github.com/ssciwr/cpp-benchmarking/raw/main/slides/slides.pdf
+      link: https://ssciwr.github.io/cpp-benchmarking/
 
     - year: 2024, 2022, 2021
       title: Data Exploration with Python and Jupyter
-      links:
-        web slides: https://ssciwr.github.io/jupyter-data-exploration/
-        code: https://github.com/ssciwr/jupyter-data-exploration
+      link: https://ssciwr.github.io/jupyter-data-exploration/
 
 - title: Lunch Time Python
   description: 'Half-hour <a href="https://ssciwr.github.io/lunch-time-python/">SSC Lunch Time Python</a> talks about Python libraries'
   items:
     - year: 2022
       title: mypy
-      links:
-        web slides: https://ssciwr.github.io/lunch-time-python/lunchtime9/lunchtime9.slides.html
-        jupyter notebook: https://ssciwr.github.io/lunch-time-python/lunchtime9/lunchtime9.ipynb
+      link: https://ssciwr.github.io/lunch-time-python/lunchtime9/lunchtime9.slides.html
 
     - year: 2022
       title: numba
-      links:
-        web slides: https://ssciwr.github.io/lunch-time-python/lunchtime6/lunchtime6.slides.html
-        jupyter notebook: https://ssciwr.github.io/lunch-time-python/lunchtime6/lunchtime6.ipynb
+      link: https://ssciwr.github.io/lunch-time-python/lunchtime6/lunchtime6.slides.html
 
     - year: 2022
       title: pytest
-      links:
-        web slides: https://ssciwr.github.io/lunch-time-python/lunchtime4/lunchtime4.slides.html
-        jupyter notebook: https://ssciwr.github.io/lunch-time-python/lunchtime4/lunchtime4.ipynb
+      link: https://ssciwr.github.io/lunch-time-python/lunchtime4/lunchtime4.slides.html
 
     - year: 2021
       title: sympy
-      links:
-        web slides: https://ssciwr.github.io/lunch-time-python/lunchtime2/lunchtime2.slides.html
-        jupyter notebook: https://ssciwr.github.io/lunch-time-python/lunchtime2/lunchtime2.ipynb
+      link: https://ssciwr.github.io/lunch-time-python/lunchtime2/lunchtime2.slides.html
 
 - title: Talks
   description: 'Talks about software development best practices'
   items:
     - year: 2023
       title: Open Research Software - Best Practices
-      links:
-        zenodo: https://zenodo.org/record/8132331
-        pdf slides: talks/EU2023.pdf
+      link: https://zenodo.org/record/8132331
+
     - year: 2022
       title: Open Research Software - Best Practices
-      links:
-        zenodo: https://zenodo.org/record/6373605#.YrR13NJBxec
-        pdf slides: talks/EU2022.pdf
+      link: https://zenodo.org/record/6373605#.YrR13NJBxec
 
 - title: Template Repositories
   description: 'Template repositories to kick-start a project'
   items:
     - year: 2021
-      title: "Create and publish web slides online from a jupyter notebook"
-      links:
-        jupyter-slides-template: https://github.com/ssciwr/jupyter-slides-template
+      title: "jupyter-slides-template"
+      link: https://github.com/ssciwr/jupyter-slides-template
+      bullets: ["Create and publish web slides online from a jupyter notebook", "bl"]
+
     - year: 2021
-      title: "Provide c++ data to Python as numpy arrays using pybind11"
-      links:
-        pybind11-numpy-example: https://github.com/ssciwr/pybind11-numpy-example
+      title: "pybind11-numpy-example"
+      link: https://github.com/ssciwr/pybind11-numpy-example
+      bullets: ["Provide c++ data to Python as numpy arrays using pybind11"]
+
     - year: 2021
-      title: "Create a simple matlab project with tests and continuous integration"
-      links:
-        matlab-project-template: https://github.com/ssciwr/matlab-project-template
+      title: "matlab-project-template"
+      link: https://github.com/ssciwr/matlab-project-template
+      bullets: ["Create a simple matlab project with tests and continuous integration"]
+
     - year: 2020
-      title: "Create a simple c++ project with tests and continuous integration"
-      links:
-        cpp-project-template: https://github.com/ssciwr/cpp-project-template
+      title: "cpp-project-template"
+      link: https://github.com/ssciwr/cpp-project-template
+      bullets: ["Create a simple c++ project with tests and continuous integration"]
