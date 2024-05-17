@@ -9,8 +9,8 @@
         - c++20
         - Qt6
         - nanobind
-        - CMake
-        - Catch2
+        - VTK
+        - oneTBB
       code: https://github.com/spatial-model-editor/spatial-model-editor
 
     - year: 2020-2024
@@ -51,11 +51,12 @@
   items:
     - year: 2022-2023
       title: Visuomotor Serial Targeting Task (VSTT)
-      desc: GUI tool to create, run and analyse motor skill aquisition experiments
+      desc: GUI tool to create, run and analyse motor skill acquisition experiments
       url: https://vstt.readthedocs.io
       tags:
         - Python
         - PyQt
+        - psychopy
       code: https://github.com/ssciwr/vstt
 
     - year: 2021
