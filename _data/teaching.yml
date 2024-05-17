@@ -61,7 +61,7 @@
     - year: 2021
       title: "jupyter-slides-template"
       link: https://github.com/ssciwr/jupyter-slides-template
-      bullets: ["Create and publish web slides online from a jupyter notebook", "bl"]
+      bullets: ["Create and publish web slides online from a jupyter notebook"]
 
     - year: 2021
       title: "pybind11-numpy-example"
