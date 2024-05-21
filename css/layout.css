@@ -129,7 +129,16 @@ a:visited {
     background-image: none !important;
   }
   #title p {
-    font-size: 0.8em;
+    font-size: 0.8em !important;
+  }
+  #content ul {
+    margin: 0 !important;
+    padding: 0.3em !important;
+  }
+  #content ul ul li {
+    margin: 0 !important;
+    padding: 0.3em !important;
+    list-style-type: none !important;
   }
 }
 
