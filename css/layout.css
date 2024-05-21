@@ -64,17 +64,17 @@ a:visited {
   width: 100%;
 }
 
-#navbar ul {
+.navigation-buttons ul {
   margin: 0;
   padding: 0;
 }
 
-#navbar ul li {
+.navigation-buttons ul li {
   list-style-type: none;
   display: inline;
 }
 
-#navbar li a {
+.navigation-buttons li a {
   display: block;
   float: left;
   padding: 0.2em 0.6em;
@@ -82,25 +82,29 @@ a:visited {
   background: rgba(34, 51, 68, 0.5);
   color: #fff;
   text-decoration: none;
-  border-top: 1px solid rgba(249, 249, 252, 0.5);
-  border-right: 1px solid rgba(249, 249, 252, 0.5);
+  border: 1px solid rgba(249, 249, 252, 0.5);
+  border-width: 1px 1px 0px 0px;
 }
 
-#navbar li:last-child a {
+.navigation-buttons li:last-child a {
   border-right: none;
 }
 
-#navbar li a.active {
+.navigation-buttons li a.active {
   color: #000;
   background-color: #f9f9fc;
 }
 
-#navbar li a:hover {
+.navigation-buttons li a:hover {
   background-color: rgba(249, 249, 252, 0.5);
 }
 
-#navbar li a.active:hover {
+.navigation-buttons li a.active:hover {
   background-color: #f9f9fc;
+}
+
+.navigation-buttons li img {
+  vertical-align: middle;
 }
 
 #content {
@@ -160,6 +164,8 @@ a:visited {
   list-style-type: square;
   font-size: 1em;
   color: #234;
+  margin: 0em 1em;
+  padding: 0.3em;
 }
 
 #content ul li {
@@ -198,31 +204,18 @@ a:visited {
   position: sticky;
   bottom: 0;
   z-index: 99;
-  background: #234;
+  background: #000 url("../imgs/footer.jpg") no-repeat left 0 top 0;
+  background-size: 100% 100%;
   text-align: right;
-  height: 2em;
-  width: 100%;
   font-size: 1em;
+  line-height: 1.8em;
+  height: 2.2em;
+  width: 100%;
   color: #fff;
 }
 
-#footer ul li {
-  list-style-type: none;
-  display: inline;
-}
-
-#footer li a {
-  display: block;
+#footer ul li a {
   float: right;
-  padding: 0.5em;
-  color: #fff;
-  text-decoration: none;
-}
-
-#footer li a:hover {
-  background-color: #89a;
-}
-
-#footer li img {
-  vertical-align: middle;
+  border-width: 0 0 1px 1px;
+  border-radius: 0 0 3px 3px !important;
 }
