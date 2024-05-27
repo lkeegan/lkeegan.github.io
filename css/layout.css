@@ -1,3 +1,16 @@
+:root {
+  --bg-color: #f9f9fc;
+  --text-color: #223344;
+  --text-title-color: #ffffff;
+  --a-color: #2233aa;
+  --a-visited-color: #553399;
+  --ul-odd-color: #f9f9fc;
+  --ul-even-color: #e8eaf9;
+  --tag-color: #6666aa;
+  --tag-border-color: #000000;
+  --tag-text-color: #ffffff;
+}
+
 html {
   overflow-y: scroll;
   height: 100%;
@@ -7,24 +20,24 @@ html {
 body {
   height: 100%;
   margin: 0;
-  background: #f9f9fc;
+  background: var(--bg-color);
 }
 
 a {
-  color: #23a;
+  color: var(--a-color);
 }
 
 a:visited {
-  color: #539;
+  color: var(--a-visited-color);
 }
 
 #container {
   margin: 0 auto;
   min-height: 100%;
   min-width: 100%;
-  background: #f9f9fc;
+  background: var(--bg-color);
   font-family: Arial, sans-serif;
-  color: #234;
+  color: var(--text-color);
 }
 
 #header {
@@ -40,7 +53,7 @@ a:visited {
   min-width: 300px;
   max-width: 1000px;
   height: 3.5em;
-  color: #fff;
+  color: var(--text-title-color);
   padding: 1.2em;
 }
 
@@ -80,7 +93,7 @@ a:visited {
   padding: 0.2em 0.6em;
   border-radius: 3px 3px 0 0;
   background: rgba(34, 51, 68, 0.5);
-  color: #fff;
+  color: var(--text-title-color);
   text-decoration: none;
   border: 1px solid rgba(249, 249, 252, 0.5);
   border-width: 1px 1px 0px 0px;
@@ -92,7 +105,7 @@ a:visited {
 
 .navigation-buttons li a.active {
   color: #000;
-  background-color: #f9f9fc;
+  background-color: var(--bg-color);
 }
 
 .navigation-buttons li a:hover {
@@ -100,7 +113,7 @@ a:visited {
 }
 
 .navigation-buttons li a.active:hover {
-  background-color: #f9f9fc;
+  background-color: var(--bg-color);
 }
 
 .navigation-buttons li img {
@@ -153,7 +166,7 @@ a:visited {
 #content h2 {
   font-size: 1.6em;
   padding: 0.2em;
-  border-bottom: solid 2px #234;
+  border-bottom: solid 2px var(--text-color);
 }
 
 #content p {
@@ -163,23 +176,41 @@ a:visited {
 #content ul {
   list-style-type: square;
   font-size: 1em;
-  color: #234;
-  margin: 0em 1em;
+  color: var(--text-color);
+  margin: 0em 0em;
   padding: 0.3em;
 }
 
-#content ul li {
+#content ul ul {
+  margin: 0em 1em;
+}
+
+#content li {
   list-style-type: none;
   margin: 0;
-  padding: 0.8em 0;
-  border-bottom: #223344 dotted 1px;
+  padding: 0.8em 0.8em;
+  border-bottom: var(--text-color) dotted 1px;
+  background-color: var(--ul-odd-color);
+}
+
+#content li:nth-child(even) {
+  background-color: var(--ul-even-color);
+}
+
+#content li:nth-child(even) li:nth-child(odd) {
+  background-color: var(--ul-even-color);
+}
+
+#content li:nth-child(odd) li:nth-child(even) {
+  background-color: var(--ul-odd-color);
 }
 
 #content ul li:last-child {
   border-bottom: none;
 }
 
-#content ul ul li {
+#content li li {
+  background-color: none;
   list-style-type: square;
   margin: 0.5em 0;
   padding: 0;
@@ -193,11 +224,12 @@ a:visited {
 #content .tag {
   font-size: 1em;
   font-style: italic;
-  border: 1px solid #339;
+  border: 1px solid var(--tag-border-color);
   border-radius: 2px;
-  background-color: #eeeeff;
+  background-color: var(--tag-color);
   padding: 0.1em 0.3em;
   margin: 0 0.1em;
+  color: var(--tag-text-color);
 }
 
 #footer {
@@ -211,7 +243,7 @@ a:visited {
   line-height: 1.8em;
   height: 2.2em;
   width: 100%;
-  color: #fff;
+  color: var(--text-title-color);
 }
 
 #footer ul li a {
