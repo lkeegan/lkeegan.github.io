@@ -47,6 +47,10 @@
 - title: Talks
   description: 'Talks about software development best practices'
   items:
+    - year: 2024
+      title: Open Research Software - Best practices and tools
+      link: talks/EU2024.pdf
+
     - year: 2023
       title: Open Research Software - Best Practices
       link: https://zenodo.org/record/8132331
