@@ -1,5 +1,5 @@
 - title: C++ Projects
-  description: 'Some of the C++ software development projects I have worked on'
+  description: 'Some open source C++ projects I have worked on'
   items:
     - year: 2019-2024
       title: Spatial Model Editor
@@ -47,7 +47,7 @@
       code: https://github.com/lkeegan/blockCG
 
 - title: Python Projects
-  description: 'Some of the Python software development projects I have worked on'
+  description: 'Some open source Python projects I have worked on'
   items:
     - year: 2022-2023
       title: Visuomotor Serial Targeting Task (VSTT)
@@ -77,7 +77,7 @@
       code: https://github.com/lkeegan/openQCD-input-file-editor
 
 - title: Web Projects
-  description: 'Some web development projects I have worked on'
+  description: 'Some open source web projects I have worked on'
   items:
     - year: 2022-2023
       title: SampleFlow
