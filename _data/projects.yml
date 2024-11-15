@@ -79,6 +79,31 @@
 - title: Web Projects
   description: 'Some open source web projects I have worked on'
   items:
+    - year: 2024
+      title: MONDEY
+      desc: In progress
+      url: https://mondey.lkeegan.dev
+      tags:
+        - Typescript
+        - Python
+        - svelte
+        - FastAPI
+        - tailwind
+        - docker
+      code: https://github.com/ssciwr/mondey
+
+    - year: 2024
+      title: predicTCR
+      desc: In progress
+      url: https://predictcr.lkeegan.dev
+      tags:
+        - Typescript
+        - Python
+        - vue.js
+        - Flask
+        - docker
+      code: https://github.com/ssciwr/predictcr
+
     - year: 2022-2023
       title: SampleFlow
       desc: Website and REST API to manage DNA sequencing samples and results
