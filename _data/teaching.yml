@@ -28,6 +28,10 @@
 - title: Lunch Time Python
   description: 'Half-hour <a href="https://ssciwr.github.io/lunch-time-python/">SSC Lunch Time Python</a> talks about Python libraries'
   items:
+    - year: 2024
+      title: FastAPI
+      link: https://ssciwr.github.io/lunch-time-python/lunchtime14/lunchtime14.slides.html
+
     - year: 2022
       title: mypy
       link: https://ssciwr.github.io/lunch-time-python/lunchtime9/lunchtime9.slides.html
