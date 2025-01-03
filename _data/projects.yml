@@ -1,7 +1,7 @@
 - title: C++ Projects
   description: 'Some open source C++ projects I have worked on'
   items:
-    - year: 2019-2024
+    - year: 2019-2025
       title: Spatial Model Editor
       desc: GUI tool to create and simulate spatial models of bio-chemical reactions
       url: https://spatial-model-editor.github.io
@@ -13,7 +13,7 @@
         - oneTBB
       code: https://github.com/spatial-model-editor/spatial-model-editor
 
-    - year: 2020-2024
+    - year: 2020-2025
       title: Hammingdist
       desc: Fast SIMD/CUDA hamming distance implementation with a Python interface
       url: https://pypi.org/project/hammingdist
@@ -92,10 +92,10 @@
         - docker
       code: https://github.com/ssciwr/mondey
 
-    - year: 2024
+    - year: 2024-2025
       title: predicTCR
-      desc: In progress
-      url: https://predictcr.lkeegan.dev
+      desc: Website and distributed runner architecture for DNA sequence machine learning model.
+      url: https://predictcr.com
       tags:
         - Typescript
         - Python
@@ -126,7 +126,7 @@
         - npm
       code: https://github.com/ssciwr/iwr-interactive-visualization
 
-    - year: 2019-2024
+    - year: 2019-2025
       title: Spatial Model Editor Website
       desc: Simple static website with content generated from yaml
       url: https://spatial-model-editor.github.io
@@ -137,7 +137,7 @@
         - npm
       code: https://github.com/spatial-model-editor/spatial-model-editor.github.io
 
-    - year: 2017-2024
+    - year: 2017-2025
       title: This website
       desc: Simple static website with content generated from yaml and markdown
       url: https://www.keegan.ch
