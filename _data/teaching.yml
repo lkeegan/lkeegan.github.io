@@ -5,6 +5,10 @@
       title: Python Packaging
       link: https://ssciwr.github.io/python-packaging/
 
+    - year: 2025, 2024, 2022, 2021
+      title: Data Exploration with Python and Jupyter
+      link: https://ssciwr.github.io/jupyter-data-exploration/
+
     - year: 2024, 2023
       title: Introduction to Python Testing
       link: https://ssciwr.github.io/python-testing-intro/
@@ -21,9 +25,6 @@
       title: Performance Benchmarking C++ Applications
       link: https://ssciwr.github.io/cpp-benchmarking/
 
-    - year: 2025, 2024, 2022, 2021
-      title: Data Exploration with Python and Jupyter
-      link: https://ssciwr.github.io/jupyter-data-exploration/
 
 - title: Lunch Time Python
   description: 'Half-hour <a href="https://ssciwr.github.io/lunch-time-python/">SSC Lunch Time Python</a> talks about Python libraries'
