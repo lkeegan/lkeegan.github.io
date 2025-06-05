@@ -1,7 +1,7 @@
 - title: Compact Courses
   description: 'Half-day <a href="https://ssc.iwr.uni-heidelberg.de/events">SSC compact courses</a> on software development for researchers'
   items:
-    - year: 2024
+    - year: 2025, 2024
       title: Python Packaging
       link: https://ssciwr.github.io/python-packaging/
 
