@@ -81,8 +81,8 @@
   items:
     - year: 2024-2025
       title: MONDEY
-      desc: In progress
-      url: https://mondey.lkeegan.dev
+      desc: 'MONDEY :: Milestones of Normal Development in Early Years'
+      url: https://mondey.de
       tags:
         - Typescript
         - Python
