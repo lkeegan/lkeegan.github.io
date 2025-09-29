@@ -1,0 +1,53 @@
+- year: 2020-2025
+  project: symengine
+  url: https://github.com/symengine/symengine
+  code: https://github.com/symengine/symengine/pulls?q=is%3Apr+author%3Alkeegan+is%3Aclosed
+  desc: Various contributions including adding SBML support to the parser, maintaining the JIT llvm code, and migrating to the new llvm pass manager.
+
+- year: 2025
+  project: fastplotlib
+  url: https://www.fastplotlib.org/
+  code: https://github.com/fastplotlib/fastplotlib/pull/883
+  desc: Extend scatter plots to allow use of linear and rectangular selectors.
+
+- year: 2025
+  project: pykdtree
+  url: https://github.com/storpipfugl/pykdtree/
+  code: https://github.com/storpipfugl/pykdtree/pull/135
+  desc: Extend pykdtree to support huge point clouds.
+
+- year: 2020-2023
+  project: libSBML
+  url: https://github.com/sbmlteam/libsbml
+  code: https://github.com/sbmlteam/libsbml/pulls?q=is%3Apr+author%3Alkeegan+is%3Aclosed
+  desc: Various fixes for math parsing and expression evaluation as well as fixing memory leaks.
+
+- year: 2023
+  project: flexbar
+  url: https://github.com/seqan/flexbar
+  code: https://github.com/bioconda/bioconda-recipes/pull/39296
+  desc: Update tbb use in flexbar to onetbb to allow it to build with the current conda-forge tbb version.
+
+- year: 2023
+  project: bioconda
+  url: https://bioconda.github.io/
+  code: https://github.com/bioconda/bioconda-recipes/pull/39816
+  desc: Fix openssl issue in the packaging of HTSlib on bioconda.
+
+- year: 2022
+  project: psychopy
+  url: https://psychopy.org/
+  code: https://github.com/psychopy/psychopy/pull/5027
+  desc: Improved the rendering performance in psychopy.
+
+- year: 2021
+  project: llvm
+  url: https://llvm.org/
+  code: https://github.com/llvm/llvm-project/commit/edf9565a8665fcaf7a452f07f77fb08c484f45d7
+  desc: I spent a day tracking down the cause of a segfault in symengine where the fix ended up being this one-line commit to llvm.
+
+- year: 2021
+  project: Stockfish
+  url: https://stockfishchess.org/
+  code: https://github.com/official-stockfish/Stockfish/pull/3623
+  desc: Added macOS and windows jobs to the CI
