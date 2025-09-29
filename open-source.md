@@ -10,5 +10,5 @@ Whenever possible I like to contribute bug fixes and improvements back to the op
 
 {%- for item in site.data.open-source %}
 - [{{ item.project }}]({{ item.url }}) ({{ item.year }})
-  - [{{ item.desc }}]({{ item.code }})
+  - [{{ item.desc }}]({{ item.code }}) {%- for tag in item.tags %} `{{tag}}`{:.tag} {%- endfor %}
 {%- endfor %}
