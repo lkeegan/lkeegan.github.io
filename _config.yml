@@ -1,3 +1,5 @@
 exclude:
   - README.md
   - LICENSE
+  - .gitignore
+  - .pre-commit-config.yaml
