@@ -7,6 +7,14 @@
     - C++
 
 - year: 2025
+  project: brian2
+  url: https://briansimulator.org/
+  code: https://github.com/brian-team/brian2/pull/1663
+  desc: Fix an error when calling .shape on the indices of a NeuronMonitor
+  tags:
+    - Python
+
+- year: 2025
   project: fastplotlib
   url: https://www.fastplotlib.org/
   code: https://github.com/fastplotlib/fastplotlib/pull/883
