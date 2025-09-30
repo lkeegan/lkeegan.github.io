@@ -7,7 +7,7 @@ image: photo.jpg
 ## About me
 
 I am a research software engineer in the
-[Scientific Software Center](https://ssc.iwr.uni-heidelberg.de)
+[Scientific Software Center](https://ssc.uni-heidelberg.de)
 of the
 [University of Heidelberg](https://www.uni-heidelberg.de/en),
 where I work with researchers from all disciplines on a range of different [research software development projects](projects.html),
