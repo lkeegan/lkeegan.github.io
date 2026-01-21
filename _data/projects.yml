@@ -146,3 +146,15 @@
         - yaml
         - CSS
       code: https://github.com/lkeegan/lkeegan.github.io
+
+- title: Rust Projects
+  description: 'Some open source rust projects I have worked on'
+  items:
+    - year: 2026
+      title: fastq-fix-i5
+      desc: A fast, streaming tool to rewrite FASTQ headers by reverse-complementing the i5 (Index2 / P5) barcode
+      url: https://bioconda.github.io/recipes/fastq-fix-i5/README.html
+      tags:
+        - rust
+        - bioconda
+      code: https://github.com/ssciwr/fastq-fix-i5
