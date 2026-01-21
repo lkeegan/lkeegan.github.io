@@ -4,16 +4,12 @@ image: projects.jpg
 layout: default
 ---
 
-{% for section in site.data.projects %}
+## Projects
 
-## {{ section.title }}
+Some open source projects I have worked on:
 
-{{ section.description }}:
-
-{%- for item in section.items %}
+{%- for item in site.data.projects %}
 - [{{ item.title }}]({{ item.url }}) ({{ item.year }})
   - {{item.desc}}
   - [Source code]({{ item.code }}) {%- for tag in item.tags %} `{{tag}}`{:.tag} {%- endfor %}
 {%- endfor %}
-
-{% endfor %}
