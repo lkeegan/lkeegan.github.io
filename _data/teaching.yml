@@ -2,6 +2,10 @@
   description: 'Half-day <a href="https://ssc.iwr.uni-heidelberg.de/events">SSC compact courses</a> on software development for researchers'
   items:
 
+    - year: 2026
+      title: Python Performance Profiling
+      link: https://ssciwr.github.io/python-performance-profiling/
+
     - year: 2025
       title: Research Software Best Practices
       link: https://docs.google.com/presentation/d/e/2PACX-1vQM3Kgn9PylSIqCWgGZis9bDRPdfqHcchLeOnhzzHD_q_Vh9fydZvcdjMpzUv7wb1azpG22MQOZGZXx/pub
