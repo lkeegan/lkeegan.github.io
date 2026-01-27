@@ -1,21 +1,7 @@
 ---
-navbar_pages:
-  - title: About me
-    url: index
-  - title: Projects
-    url: projects
-  - title: Teaching
-    url: teaching
-  - title: Open source
-    url: open-source
-  - title: Physics
-    url: physics
-  - title: CV
-    url: cv
 ---
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!doctype html>
+<html lang="en">
   <head>
     <meta name="author" content="Liam Keegan" />
     <meta charset="utf-8" />
@@ -24,11 +10,15 @@ navbar_pages:
       name="viewport"
       content="width=device-width, initial-scale=1"
     />
-    <title>Liam Keegan :: {{ page.title }}</title>
-    <link rel="shortcut icon" type="image/png" href="/imgs/favicon.png" />
+    <title>{{ site.title }} :: {{ page.title }}</title>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="{{ '/imgs/favicon.png' | relative_url }}"
+    />
     <link
       rel="stylesheet"
-      href="css/layout.css"
+      href="{{ '/css/layout.css' | relative_url }}"
       type="text/css"
       media="screen"
     />
@@ -44,21 +34,26 @@ navbar_pages:
         </div>
         <div id="navbar" class="navigation-buttons">
           <ul>
-            {% for navbar_page in layout.navbar_pages %}
+            {% for navbar_page in site.data.navigation %}
             <li>
               {% if navbar_page.title == page.title %}
-              <a class="active" href="{{ navbar_page.url }}.html"
+              <a class="active" href="{{ navbar_page.url | relative_url }}"
                 >{{ navbar_page.title }}</a
               >
               {% else %}
-              <a href="{{ navbar_page.url }}.html">{{ navbar_page.title}}</a>
+              <a href="{{ navbar_page.url | relative_url }}"
+                >{{ navbar_page.title }}</a
+              >
               {% endif %}
             </li>
             {% endfor %}
           </ul>
         </div>
       </div>
-      <div id="content" style="background-image:url(imgs/{{ page.image }});">
+      <div
+        id="content"
+        style="--page-bg-image: url('{{ page.image | prepend: '/imgs/' | relative_url }}');"
+      >
         <div id="pic"></div>
         <div id="txt">{{ content }}</div>
       </div>
@@ -66,22 +61,34 @@ navbar_pages:
         <ul>
           <li>
             <a href="https://orcid.org/0000-0002-0654-4979"
-              ><img src="imgs/ORCID.png" alt="ORCID" width="14px"
+              ><img
+                src="{{ '/imgs/ORCID.png' | relative_url }}"
+                alt="ORCID"
+                width="14px"
             /></a>
           </li>
           <li>
             <a href="https://www.xing.com/profile/Liam_Keegan2"
-              ><img src="imgs/XING.png" alt="XING" width="14px"
+              ><img
+                src="{{ '/imgs/XING.png' | relative_url }}"
+                alt="XING"
+                width="14px"
             /></a>
           </li>
           <li>
             <a href="https://www.linkedin.com/in/liamrgkeegan"
-              ><img src="imgs/LinkedIn.png" alt="LinkedIn" width="14px"
+              ><img
+                src="{{ '/imgs/LinkedIn.png' | relative_url }}"
+                alt="LinkedIn"
+                width="14px"
             /></a>
           </li>
           <li>
             <a href="https://github.com/lkeegan"
-              ><img src="imgs/GitHub.png" alt="GitHub" width="14px"
+              ><img
+                src="{{ '/imgs/GitHub.png' | relative_url }}"
+                alt="GitHub"
+                width="14px"
             /></a>
           </li>
           <li>
