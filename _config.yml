@@ -1,3 +1,8 @@
+title: Liam Keegan
+description: Personal website for Liam Keegan.
+url: "https://keegan.ch"
+baseurl: ""
+
 exclude:
   - README.md
   - LICENSE
