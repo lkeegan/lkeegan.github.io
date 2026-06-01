@@ -1,4 +1,5 @@
-- year: 2026
+- start_year: 2026
+  end_year: 2026
   title: fastq-fix-i5
   desc: A fast, streaming tool to rewrite FASTQ headers by reverse-complementing the i5 (Index2 / P5) barcode
   url: https://bioconda.github.io/recipes/fastq-fix-i5/README.html
@@ -7,7 +8,8 @@
     - bioconda
   code: https://github.com/ssciwr/fastq-fix-i5
 
-- year: 2024-2025
+- start_year: 2024
+  end_year: 2026
   title: MONDEY
   desc: 'MONDEY :: Milestones of Normal Development in Early Years'
   url: https://mondey.de
@@ -20,7 +22,8 @@
     - docker
   code: https://github.com/ssciwr/mondey
 
-- year: 2024-2025
+- start_year: 2024
+  end_year: 2025
   title: predicTCR
   desc: Website and distributed runner architecture for DNA sequence machine learning model.
   url: https://predictcr.com
@@ -32,7 +35,8 @@
     - docker
   code: https://github.com/ssciwr/predictcr
 
-- year: 2022-2023
+- start_year: 2022
+  end_year: 2023
   title: Visuomotor Serial Targeting Task (VSTT)
   desc: GUI tool to create, run and analyse motor skill acquisition experiments
   url: https://vstt.readthedocs.io
@@ -42,7 +46,8 @@
     - psychopy
   code: https://github.com/ssciwr/vstt
 
-- year: 2022-2023
+- start_year: 2022
+  end_year: 2023
   title: SampleFlow
   desc: Website and REST API to manage DNA sequencing samples and results
   url: https://circuitseq.iwr.uni-heidelberg.de
@@ -54,7 +59,8 @@
     - docker
   code: https://github.com/ssciwr/sample_flow
 
-- year: 2022
+- start_year: 2022
+  end_year: 2022
   title: IWR Interactive Visualization
   desc: Interactive visualization of IWR research activities
   url: https://ssciwr.github.io/iwr-interactive-visualization
@@ -64,7 +70,8 @@
     - npm
   code: https://github.com/ssciwr/iwr-interactive-visualization
 
-- year: 2021
+- start_year: 2021
+  end_year: 2021
   title: pybind11-numpy-example
   desc: "Simple example of pybind11/numpy including CI to build wheels and deploy to PyPI"
   url: https://pypi.org/project/pybind11-numpy-example
@@ -75,7 +82,8 @@
     - Catch2
   code: https://github.com/ssciwr/pybind11-numpy-example
 
-- year: 2021
+- start_year: 2021
+  end_year: 2021
   title: sme-contrib
   desc: Parameter fitting and plotting functionality for Spatial Model Editor
   url: https://sme-contrib.readthedocs.io/
@@ -83,7 +91,8 @@
     - Python
   code: https://github.com/spatial-model-editor/sme-contrib
 
-- year: 2020-2024
+- start_year: 2020
+  end_year: 2024
   title: Hammingdist
   desc: Fast SIMD/CUDA hamming distance implementation with a Python interface
   url: https://pypi.org/project/hammingdist
@@ -94,7 +103,8 @@
     - pybind11
   code: https://github.com/ssciwr/hammingdist
 
-- year: 2019-2026
+- start_year: 2019
+  end_year: 2026
   title: Spatial Model Editor
   desc: GUI tool to create and simulate spatial models of bio-chemical reactions
   url: https://spatial-model-editor.github.io
@@ -106,7 +116,8 @@
     - oneTBB
   code: https://github.com/spatial-model-editor/spatial-model-editor
 
-- year: 2019-2025
+- start_year: 2019
+  end_year: 2026
   title: Spatial Model Editor Website
   desc: Simple static website with content generated from yaml
   url: https://spatial-model-editor.github.io
@@ -117,7 +128,8 @@
     - npm
   code: https://github.com/spatial-model-editor/spatial-model-editor.github.io
 
-- year: 2018
+- start_year: 2018
+  end_year: 2018
   title: blockCG
   desc: "Reference C++ implementation of SBCGrQ and other block CG solvers from [1808.01829](https://arxiv.org/abs/1808.01829)"
   url: https://github.com/lkeegan/blockCG
@@ -128,7 +140,8 @@
     - Catch2
   code: https://github.com/lkeegan/blockCG
 
-- year: 2017-2026
+- start_year: 2017
+  end_year: 2026
   title: This website
   desc: Simple static website with content generated from yaml and markdown
   url: https://www.keegan.ch
@@ -138,7 +151,8 @@
     - CSS
   code: https://github.com/lkeegan/lkeegan.github.io
 
-- year: 2015
+- start_year: 2015
+  end_year: 2015
   title: openQCD-input-file-editor
   desc: GUI tool to edit and validate openQCD simulation code input files
   url: https://pypi.org/project/openQCD-input-file-editor

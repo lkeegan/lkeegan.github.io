@@ -1,4 +1,5 @@
-- year: 2020-2025
+- start_year: 2020
+  end_year: 2026
   project: symengine
   url: https://github.com/symengine/symengine
   code: https://github.com/symengine/symengine/pulls?q=is%3Apr+author%3Alkeegan+is%3Aclosed
@@ -6,7 +7,8 @@
   tags:
     - C++
 
-- year: 2025
+- start_year: 2025
+  end_year: 2025
   project: brian2
   url: https://briansimulator.org/
   code: https://github.com/brian-team/brian2/pull/1663
@@ -14,7 +16,8 @@
   tags:
     - Python
 
-- year: 2025
+- start_year: 2025
+  end_year: 2025
   project: fastplotlib
   url: https://www.fastplotlib.org/
   code: https://github.com/fastplotlib/fastplotlib/pull/883
@@ -22,7 +25,8 @@
   tags:
     - Python
 
-- year: 2025
+- start_year: 2025
+  end_year: 2025
   project: pykdtree
   url: https://github.com/storpipfugl/pykdtree/
   code: https://github.com/storpipfugl/pykdtree/pull/135
@@ -30,7 +34,8 @@
   tags:
     - cython
 
-- year: 2024
+- start_year: 2024
+  end_year: 2024
   project: mcx
   url: https://mcx.space/
   code: https://github.com/fangq/mcx/pull/214
@@ -38,7 +43,8 @@
   tags:
     - cuda
 
-- year: 2020-2023
+- start_year: 2020
+  end_year: 2023
   project: libSBML
   url: https://github.com/sbmlteam/libsbml
   code: https://github.com/sbmlteam/libsbml/pulls?q=is%3Apr+author%3Alkeegan+is%3Aclosed
@@ -46,7 +52,8 @@
   tags:
     - C++
 
-- year: 2023
+- start_year: 2023
+  end_year: 2023
   project: jupyter nbconvert
   url: https://github.com/jupyter/nbconvert
   code: https://github.com/jupyter/nbconvert/pull/2032
@@ -54,7 +61,8 @@
   tags:
     - css
 
-- year: 2023
+- start_year: 2023
+  end_year: 2023
   project: flexbar
   url: https://github.com/seqan/flexbar
   code: https://github.com/bioconda/bioconda-recipes/pull/39296
@@ -62,7 +70,8 @@
   tags:
     - C++
 
-- year: 2023
+- start_year: 2023
+  end_year: 2023
   project: bioconda
   url: https://bioconda.github.io/
   code: https://github.com/bioconda/bioconda-recipes/pull/39816
@@ -71,13 +80,15 @@
       - Python
       - yaml
 
-- year: 2020-2022
+- start_year: 2020
+  end_year: 2022
   project: pybind11
   url: https://pybind11.readthedocs.io/
   code: https://github.com/pybind/pybind11/pulls?q=is%3Apr+is%3Aclosed+author%3Alkeegan+
   desc: Fixes to improve support on Windows for msys2 and mingw.
 
-- year: 2022
+- start_year: 2022
+  end_year: 2022
   project: psychopy
   url: https://psychopy.org/
   code: https://github.com/psychopy/psychopy/pull/5027
@@ -85,7 +96,8 @@
   tags:
     - Python
 
-- year: 2021
+- start_year: 2021
+  end_year: 2021
   project: llvm
   url: https://llvm.org/
   code: https://github.com/llvm/llvm-project/commit/edf9565a8665fcaf7a452f07f77fb08c484f45d7
@@ -93,7 +105,8 @@
   tags:
     - C++
 
-- year: 2021
+- start_year: 2021
+  end_year: 2021
   project: Stockfish
   url: https://stockfishchess.org/
   code: https://github.com/official-stockfish/Stockfish/pull/3623
@@ -101,7 +114,8 @@
   tags:
       - yaml
 
-- year: 2020
+- start_year: 2020
+  end_year: 2020
   project: Catch2
   url: https://github.com/catchorg/Catch2
   code: https://github.com/catchorg/Catch2/pull/2044

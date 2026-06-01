@@ -10,7 +10,8 @@ layout: default
 
 {{ section.description }}:
 
-{%- for item in section.items %}
+{%- assign items = section.items | sort: "year" | reverse %}
+{%- for item in items %}
 - [{{ item.title }}]({{ item.link }}) ({{ item.year }})
 {%- for bullet in item.bullets %}
   - {{ bullet }}

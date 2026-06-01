@@ -8,8 +8,9 @@ layout: default
 
 Some open source projects I have worked on:
 
-{%- for item in site.data.projects %}
-- [{{ item.title }}]({{ item.url }}) ({{ item.year }})
+{% assign items = site.data.projects | sort: "end_year" | reverse %}
+{% for item in items %}
+- [{{ item.title }}]({{ item.url }}) ({% if item.start_year == item.end_year %}{{ item.end_year }}{% else %}{{ item.start_year }}-{{ item.end_year }}{% endif %})
   - {{item.desc}}
   - [Source code]({{ item.code }}) {%- for tag in item.tags %} `{{tag}}`{:.tag} {%- endfor %}
-{%- endfor %}
+{% endfor %}
