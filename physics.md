@@ -7,7 +7,7 @@ layout: default
 ## Research publications
 
 My publications are listed in the
-[INSPIRE High-Energy Physics Literature Database](http://inspirehep.net/search?p=exactauthor%3AL.Keegan.1),
+[INSPIRE High-Energy Physics Literature Database](https://inspirehep.net/authors/1068105),
 which also contains links to full-text pdf versions.
 
 PhD Thesis: [Dynamical Electroweak Symmetry

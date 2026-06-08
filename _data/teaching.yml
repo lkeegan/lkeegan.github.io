@@ -2,35 +2,35 @@
   description: 'Half-day <a href="https://www.ssc.uni-heidelberg.de/en/learning">SSC compact courses</a> on software development for researchers'
   items:
 
-    - year: 2026
+    - years: [2026]
       title: Python Performance Profiling
       link: https://ssciwr.github.io/python-performance-profiling/
 
-    - year: 2025
+    - years: [2025]
       title: Research Software Best Practices
       link: https://docs.google.com/presentation/d/e/2PACX-1vQM3Kgn9PylSIqCWgGZis9bDRPdfqHcchLeOnhzzHD_q_Vh9fydZvcdjMpzUv7wb1azpG22MQOZGZXx/pub
 
-    - year: 2026, 2025, 2024
+    - years: [2026, 2025, 2024]
       title: Python Packaging
       link: https://ssciwr.github.io/python-packaging/
 
-    - year: 2025, 2024, 2022, 2021
+    - years: [2025, 2024, 2022, 2021]
       title: Data Exploration with Python and Jupyter
       link: https://ssciwr.github.io/jupyter-data-exploration/
 
-    - year: 2026, 2025, 2024, 2023
+    - years: [2026, 2025, 2024, 2023]
       title: Introduction to Python Testing
       link: https://ssciwr.github.io/python-testing-intro/
 
-    - year: 2025, 2024, 2023
+    - years: [2025, 2024, 2023]
       title: Effective Software Testing
       link: https://ssciwr.github.io/effective-software-testing/
 
-    - year: 2022
+    - years: [2022]
       title: High Performance C++
       link: https://ssciwr.github.io/high-performance-cpp/
 
-    - year: 2022
+    - years: [2022]
       title: Performance Benchmarking C++ Applications
       link: https://ssciwr.github.io/cpp-benchmarking/
 
@@ -38,64 +38,64 @@
 - title: Lunch Time Python
   description: 'Half-hour <a href="https://ssciwr.github.io/lunch-time-python/">SSC Lunch Time Python</a> talks about Python libraries'
   items:
-    - year: 2024
+    - years: [2024]
       title: FastAPI
       link: https://ssciwr.github.io/lunch-time-python/lunchtime14/lunchtime14.slides.html
 
-    - year: 2022
+    - years: [2022]
       title: mypy
       link: https://ssciwr.github.io/lunch-time-python/lunchtime9/lunchtime9.slides.html
 
-    - year: 2022
+    - years: [2022]
       title: numba
       link: https://ssciwr.github.io/lunch-time-python/lunchtime6/lunchtime6.slides.html
 
-    - year: 2022
+    - years: [2022]
       title: pytest
       link: https://ssciwr.github.io/lunch-time-python/lunchtime4/lunchtime4.slides.html
 
-    - year: 2021
+    - years: [2021]
       title: sympy
       link: https://ssciwr.github.io/lunch-time-python/lunchtime2/lunchtime2.slides.html
 
 - title: Talks
   description: 'Talks about software development best practices'
   items:
-    - year: 2025
+    - years: [2025]
       title: deRSE25 - What researchers need... and what they ask for
       link: talks/deRSE25.pdf
 
-    - year: 2024
+    - years: [2024]
       title: Open Research Software - Best practices and tools
       link: talks/EU2024.pdf
 
-    - year: 2023
+    - years: [2023]
       title: Open Research Software - Best Practices
       link: https://zenodo.org/record/8132331
 
-    - year: 2022
+    - years: [2022]
       title: Open Research Software - Best Practices
       link: https://zenodo.org/record/6373605#.YrR13NJBxec
 
 - title: Template Repositories
   description: 'Template repositories to kick-start a project'
   items:
-    - year: 2021
+    - years: [2021]
       title: "jupyter-slides-template"
       link: https://github.com/ssciwr/jupyter-slides-template
       bullets: ["Create and publish web slides online from a jupyter notebook"]
 
-    - year: 2021
+    - years: [2021]
       title: "pybind11-numpy-example"
       link: https://github.com/ssciwr/pybind11-numpy-example
       bullets: ["Provide c++ data to Python as numpy arrays using pybind11"]
 
-    - year: 2021
+    - years: [2021]
       title: "matlab-project-template"
       link: https://github.com/ssciwr/matlab-project-template
       bullets: ["Create a simple matlab project with tests and continuous integration"]
 
-    - year: 2020
+    - years: [2020]
       title: "cpp-project-template"
       link: https://github.com/ssciwr/cpp-project-template
       bullets: ["Create a simple c++ project with tests and continuous integration"]

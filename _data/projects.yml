@@ -4,8 +4,8 @@
   desc: A fast, streaming tool to rewrite FASTQ headers by reverse-complementing the i5 (Index2 / P5) barcode
   url: https://bioconda.github.io/recipes/fastq-fix-i5/README.html
   tags:
-    - rust
-    - bioconda
+    - Rust
+    - Bioconda
   code: https://github.com/ssciwr/fastq-fix-i5
 
 - start_year: 2024
@@ -14,12 +14,12 @@
   desc: 'MONDEY :: Milestones of Normal Development in Early Years'
   url: https://mondey.de
   tags:
-    - Typescript
+    - TypeScript
     - Python
-    - svelte
+    - Svelte
     - FastAPI
-    - tailwind
-    - docker
+    - Tailwind CSS
+    - Docker
   code: https://github.com/ssciwr/mondey
 
 - start_year: 2024
@@ -28,11 +28,11 @@
   desc: Website and distributed runner architecture for DNA sequence machine learning model.
   url: https://predictcr.com
   tags:
-    - Typescript
+    - TypeScript
     - Python
-    - vue.js
+    - Vue.js
     - Flask
-    - docker
+    - Docker
   code: https://github.com/ssciwr/predictcr
 
 - start_year: 2022
@@ -52,11 +52,11 @@
   desc: Website and REST API to manage DNA sequencing samples and results
   url: https://circuitseq.iwr.uni-heidelberg.de
   tags:
-    - Typescript
+    - TypeScript
     - Python
-    - vue.js
+    - Vue.js
     - Flask
-    - docker
+    - Docker
   code: https://github.com/ssciwr/sample_flow
 
 - start_year: 2022
@@ -66,7 +66,7 @@
   url: https://ssciwr.github.io/iwr-interactive-visualization
   tags:
     - TypeScript
-    - svg.js
+    - SVG.js
     - npm
   code: https://github.com/ssciwr/iwr-interactive-visualization
 
@@ -76,7 +76,7 @@
   desc: "Simple example of pybind11/numpy including CI to build wheels and deploy to PyPI"
   url: https://pypi.org/project/pybind11-numpy-example
   tags:
-    - c++11
+    - C++11
     - pybind11
     - CMake
     - Catch2
@@ -97,7 +97,7 @@
   desc: Fast SIMD/CUDA hamming distance implementation with a Python interface
   url: https://pypi.org/project/hammingdist
   tags:
-    - c++17
+    - C++17
     - CUDA
     - SIMD
     - pybind11
@@ -109,7 +109,7 @@
   desc: GUI tool to create and simulate spatial models of bio-chemical reactions
   url: https://spatial-model-editor.github.io
   tags:
-    - c++20
+    - C++20
     - Qt6
     - nanobind
     - VTK
@@ -134,7 +134,7 @@
   desc: "Reference C++ implementation of SBCGrQ and other block CG solvers from [1808.01829](https://arxiv.org/abs/1808.01829)"
   url: https://github.com/lkeegan/blockCG
   tags:
-    - c++11
+    - C++11
     - Eigen
     - CMake
     - Catch2
@@ -147,7 +147,7 @@
   url: https://www.keegan.ch
   tags:
     - Jekyll
-    - yaml
+    - YAML
     - CSS
   code: https://github.com/lkeegan/lkeegan.github.io
 
