@@ -3,6 +3,10 @@
   items:
 
     - years: [2026]
+      title: Agentic Test-Driven Development
+      link: https://ssciwr.github.io/agentic-test-driven-development/
+
+    - years: [2026]
       title: Python Performance Profiling
       link: https://ssciwr.github.io/python-performance-profiling/
 
