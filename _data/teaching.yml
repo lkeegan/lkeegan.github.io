@@ -1,105 +1,204 @@
 - title: Compact Courses
+  link_label: Slides
   description: 'Half-day <a href="https://www.ssc.uni-heidelberg.de/en/learning">SSC compact courses</a> on software development for researchers'
   items:
 
     - years: [2026]
       title: Agentic Test-Driven Development
+      summary: >-
+        As agentic coding tools like Claude Code and Codex CLI make generating code faster,
+        validating the correctness of this code becomes more important than ever. In this course
+        you will learn how to apply test-driven development and software testing best practices
+        in the context of agentic software development. By writing tests before the implementation,
+        our test suite not only verifies correctness, but also defines a clear specification of what
+        the code should and should not do.
       link: https://ssciwr.github.io/agentic-test-driven-development/
+      source: https://github.com/ssciwr/agentic-test-driven-development
 
     - years: [2026]
       title: Python Performance Profiling
+      summary: >-
+        To make your Python code run faster, you first need to understand where and why it is slow.
+        In this course we will look at how to profile and benchmark the performance of Python code,
+        as well as the compiled cpu and gpu code that gets invoked when you use libraries like numpy or pytorch.
       link: https://ssciwr.github.io/python-performance-profiling/
-
-    - years: [2025]
-      title: Research Software Best Practices
-      link: https://docs.google.com/presentation/d/e/2PACX-1vQM3Kgn9PylSIqCWgGZis9bDRPdfqHcchLeOnhzzHD_q_Vh9fydZvcdjMpzUv7wb1azpG22MQOZGZXx/pub
+      source: https://github.com/ssciwr/python-performance-profiling
 
     - years: [2026, 2025, 2024]
       title: Python Packaging
+      summary: >-
+        In this course we will learn how to package a Python library, how to publish it on PyPI and
+        on conda-forge, as well as look at more advanced topics like building pre-compiled wheels
+        including c++ extensions using pybind11, and automatically publishing new releases using
+        continuous integration and cibuildwheel.
       link: https://ssciwr.github.io/python-packaging/
-
-    - years: [2025, 2024, 2022, 2021]
-      title: Data Exploration with Python and Jupyter
-      link: https://ssciwr.github.io/jupyter-data-exploration/
+      source: https://github.com/ssciwr/python-packaging
 
     - years: [2026, 2025, 2024, 2023]
       title: Introduction to Python Testing
+      summary: >-
+        An automated test suite makes it much easier to maintain, extend and debug your Python code.
+        In this course we will learn how to write automated tests in Python using the pytest library.
+        After introducing the key concepts, the majority of the course will be hands-on, writing and running tests.
       link: https://ssciwr.github.io/python-testing-intro/
+      source: https://github.com/ssciwr/python-testing-intro
+
+    - years: [2025]
+      title: Research Software Best Practices
+      summary: A quick overview of best practices and tools for reliable, maintainable software.
+      link: https://docs.google.com/presentation/d/e/2PACX-1vQM3Kgn9PylSIqCWgGZis9bDRPdfqHcchLeOnhzzHD_q_Vh9fydZvcdjMpzUv7wb1azpG22MQOZGZXx/pub
 
     - years: [2025, 2024, 2023]
       title: Effective Software Testing
+      summary: >-
+        A good test suite makes extending, maintaining and debugging a codebase both easier and faster.
+        In this course we will look at the different kinds of tests, and understand how to write good tests.
+        We will also cover different testing strategies, such as test-driven-design when writing new code,
+        or acceptance testing when working with legacy code that doesn't have a good test suite.
+        Code samples will use the Python testing framework pytest but the concepts also apply to other
+        frameworks and languages.
       link: https://ssciwr.github.io/effective-software-testing/
+      source: https://github.com/ssciwr/effective-software-testing
+
+    - years: [2025, 2024, 2022, 2021]
+      title: Data Exploration with Python and Jupyter
+      summary: >-
+        Jupyter notebooks are a great tool for exploring and interacting with data using the Python
+        programming language and its rich ecosystem of libraries. In this course we will cover basic
+        usage of the Pandas library to download a dataset, explore its contents, clean up missing or
+        invalid data, filter the data according to different criteria, and plot visualizations of the data.
+      link: https://ssciwr.github.io/jupyter-data-exploration/
+      source: https://github.com/ssciwr/jupyter-data-exploration
 
     - years: [2022]
       title: High Performance C++
+      summary: >-
+        In this course we will look at how the choice of algorithms, data structures and hardware
+        influences the performance of our C++ applications. We will cover some performance best
+        practices which are always applicable, as well as some possible optimizations for more
+        specific scenarios. We will also discuss when not to optimize, for example sacrificing
+        readability and maintainability for a minimal performance gain, or preventing the compiler
+        from doing a different and possibly better optimization. Finally we will apply this knowledge
+        to optimize example code in a series of hands-on exercises.
       link: https://ssciwr.github.io/high-performance-cpp/
+      source: https://github.com/ssciwr/high-performance-cpp
 
     - years: [2022]
       title: Performance Benchmarking C++ Applications
+      summary: >-
+        We use compiled languages like C++, Rust or Fortran to get good performance, so measuring
+        and understanding the performance characteristics of our code is vital, for example to
+        identify bottlenecks or to determine if a change to the code actually improves the
+        performance. In this course we will cover different ways to profile and benchmark the
+        performance of our code, and discuss the pros and cons of each method. Code examples will
+        be in C++ but the profiling applies to most compiled languages.
       link: https://ssciwr.github.io/cpp-benchmarking/
+      source: https://github.com/ssciwr/cpp-benchmarking
 
 
 - title: Lunch Time Python
+  link_label: Slides
   description: 'Half-hour <a href="https://ssciwr.github.io/lunch-time-python/">SSC Lunch Time Python</a> talks about Python libraries'
   items:
     - years: [2024]
       title: FastAPI
+      summary: >-
+        FastAPI is a web framework that combines the starlette ASGI framework with pydantic data validation.
+        Similarly, SQLModel combines the SQLAlchemy database toolkit with pydantic.
+        Together they allow you to write expressive web backends with data validation using Python type hints.
       link: https://ssciwr.github.io/lunch-time-python/lunchtime14/lunchtime14.slides.html
+      source: https://github.com/ssciwr/lunch-time-python/tree/main/lunchtime14
 
     - years: [2022]
       title: mypy
+      summary: >-
+        mypy is a static type checker for Python.
+        By adding type annotations to your code mypy can find a variety of bugs.
+        These type annotations also act as machine-checked documentation of your code,
+        and your IDE can make use of them to improve its code completion.
+        They don't affect how your program runs, as the Python interpreter ignores
+        these type annotations at run-time.
       link: https://ssciwr.github.io/lunch-time-python/lunchtime9/lunchtime9.slides.html
+      source: https://github.com/ssciwr/lunch-time-python/tree/main/lunchtime9
 
     - years: [2022]
       title: numba
+      summary: >-
+        numba is a just-in-time (JIT) compiler for Python. With a few simple annotations,
+        array-oriented and math-heavy Python code can be just-in-time optimized to performance
+        similar to C, C++ and Fortran, without having to switch languages or Python interpreters.
       link: https://ssciwr.github.io/lunch-time-python/lunchtime6/lunchtime6.slides.html
+      source: https://github.com/ssciwr/lunch-time-python/tree/main/lunchtime6
 
     - years: [2022]
       title: pytest
+      summary: >-
+        pytest is a widely used Python test framework, which makes it easy to write small and
+        readable tests, and also offers more advanced features such as fixtures and mocks.
+        There is also a large ecosystem of plugins providing additional functionality.
       link: https://ssciwr.github.io/lunch-time-python/lunchtime4/lunchtime4.slides.html
+      source: https://github.com/ssciwr/lunch-time-python/tree/main/lunchtime4
 
     - years: [2021]
       title: sympy
+      summary: >-
+        SymPy is a Python library for symbolic mathematics.
+        It can parse mathematical expressions, substitute, differentiate, integrate and evaluate them,
+        as well as solve algebraic and differential equations.
+        It is also itself written entirely in Python, with a focus on keeping the code comprehensible and easily extensible.
+        There is also a related project SymEngine,
+        which is written in C++ with a focus on speed, which offers a much faster implementation of a subset of SymPy's functionality.
       link: https://ssciwr.github.io/lunch-time-python/lunchtime2/lunchtime2.slides.html
+      source: https://github.com/ssciwr/lunch-time-python/tree/main/lunchtime2
 
 - title: Talks
+  link_label: Slides
   description: 'Talks about software development best practices'
   items:
     - years: [2025]
       title: deRSE25 - What researchers need... and what they ask for
+      summary: >-
+        Researchers often come to us with very specific technical questions.
+        And often, answering this specific question is the best way to help them…
+        But sometimes there is a different question they could have asked, with a much more helpful answer.
+        This talk is about finding that question.
       link: talks/deRSE25.pdf
 
     - years: [2024]
       title: Open Research Software - Best practices and tools
+      summary: Best practices and tools for reliable, maintainable software.
       link: talks/EU2024.pdf
 
     - years: [2023]
       title: Open Research Software - Best Practices
+      summary: Best practices for reliable, maintainable software.
       link: https://zenodo.org/record/8132331
 
     - years: [2022]
       title: Open Research Software - Best Practices
+      summary: Best practices for reliable, maintainable software.
       link: https://zenodo.org/record/6373605#.YrR13NJBxec
 
 - title: Template Repositories
+  link_label: Source code
   description: 'Template repositories to kick-start a project'
   items:
     - years: [2021]
       title: "jupyter-slides-template"
       link: https://github.com/ssciwr/jupyter-slides-template
-      bullets: ["Create and publish web slides online from a jupyter notebook"]
+      summary: Create and publish web slides online from a jupyter notebook
 
     - years: [2021]
       title: "pybind11-numpy-example"
       link: https://github.com/ssciwr/pybind11-numpy-example
-      bullets: ["Provide c++ data to Python as numpy arrays using pybind11"]
+      summary: Provide c++ data to Python as numpy arrays using pybind11
 
     - years: [2021]
       title: "matlab-project-template"
       link: https://github.com/ssciwr/matlab-project-template
-      bullets: ["Create a simple matlab project with tests and continuous integration"]
+      summary: Create a simple matlab project with tests and continuous integration
 
     - years: [2020]
       title: "cpp-project-template"
       link: https://github.com/ssciwr/cpp-project-template
-      bullets: ["Create a simple c++ project with tests and continuous integration"]
+      summary: Create a simple c++ project with tests and continuous integration

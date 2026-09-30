@@ -1,0 +1,13 @@
+<nav class="{{ include.class }}" aria-label="{{ include.label }}">
+  <ul>
+    {% for navbar_page in site.data.navigation %}
+    <li>
+      <a
+        href="{{ navbar_page.url | relative_url }}"
+        aria-current="{% if navbar_page.title == page.title %}page{% else %}false{% endif %}"
+        >{{ navbar_page.title }}</a
+      >
+    </li>
+    {% endfor %}
+  </ul>
+</nav>

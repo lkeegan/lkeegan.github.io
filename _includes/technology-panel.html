@@ -1,0 +1,31 @@
+<aside
+  id="technology-panel"
+  class="technology-panel"
+  aria-label="Filter by technology"
+  data-singular="{{ include.singular }}"
+  data-plural="{{ include.plural }}"
+  hidden
+>
+  <details id="technology-drawer" class="technology-drawer" open>
+    <summary>
+      Filter by technology
+      <span id="selected-technology-label">{{ include.all_label }}</span>
+    </summary>
+    <div class="technology-panel-body">
+      <div class="technology-panel-heading">
+        <button id="clear-technology" type="button" aria-pressed="true">
+          {{ include.all_label }}
+        </button>
+      </div>
+      <div
+        id="technology-tags"
+        class="technology-tags"
+        role="group"
+        aria-label="Filter entries by technology"
+      ></div>
+      <div class="technology-preview" aria-live="polite" hidden>
+        <ul id="technology-preview-list"></ul>
+      </div>
+    </div>
+  </details>
+</aside>

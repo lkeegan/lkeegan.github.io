@@ -1,6 +1,7 @@
 - start_year: 2026
   end_year: 2026
   title: fastq-fix-i5
+  featured: true
   desc: A fast, streaming tool to rewrite FASTQ headers by reverse-complementing the i5 (Index2 / P5) barcode
   url: https://bioconda.github.io/recipes/fastq-fix-i5/README.html
   tags:
@@ -11,6 +12,7 @@
 - start_year: 2024
   end_year: 2026
   title: MONDEY
+  featured: true
   desc: 'MONDEY :: Milestones of Normal Development in Early Years'
   url: https://mondey.de
   tags:
@@ -43,7 +45,7 @@
   tags:
     - Python
     - PyQt
-    - psychopy
+    - PsychoPy
   code: https://github.com/ssciwr/vstt
 
 - start_year: 2022
@@ -106,6 +108,7 @@
 - start_year: 2019
   end_year: 2026
   title: Spatial Model Editor
+  featured: true
   desc: GUI tool to create and simulate spatial models of bio-chemical reactions
   url: https://spatial-model-editor.github.io
   tags:
@@ -149,6 +152,7 @@
     - Jekyll
     - YAML
     - CSS
+    - JavaScript
   code: https://github.com/lkeegan/lkeegan.github.io
 
 - start_year: 2015

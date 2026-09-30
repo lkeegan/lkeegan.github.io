@@ -4,99 +4,56 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta name="author" content="Liam Keegan" />
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Liam Keegan" />
     <meta
-      id="meta"
-      name="viewport"
-      content="width=device-width, initial-scale=1"
+      name="description"
+      content="{{ page.description | default: site.description }}"
     />
-    <title>{{ site.title }} :: {{ page.title }}</title>
+    <title>
+      {% if page.url == "/" %}{{ site.title }}{% else %}{{ page.title }} · {{
+      site.title }}{% endif %}
+    </title>
     <link
-      rel="shortcut icon"
+      rel="icon"
       type="image/png"
       href="{{ '/imgs/favicon.png' | relative_url }}"
     />
-    <link
-      rel="stylesheet"
-      href="{{ '/css/layout.css' | relative_url }}"
-      type="text/css"
-      media="screen"
-    />
+    <link rel="stylesheet" href="{{ '/css/layout.css' | relative_url }}" />
   </head>
   <body>
-    <div id="container">
-      <div id="header">
-        <div id="title">
-          <h1>Liam Keegan</h1>
-          <p>
-            Scientific Software Developer and High Performance Computing expert
-          </p>
+    <div class="site-shell">
+      <header class="site-header">
+        <div class="header-inner">
+          <div class="site-identity">
+            <a class="site-name" href="{{ '/' | relative_url }}">Liam Keegan</a>
+            <span class="site-role">Research software engineer</span>
+          </div>
+
+          {% include nav.html class="desktop-nav" label="Main navigation" %}
+
+          <details class="mobile-nav">
+            <summary>Menu</summary>
+            {% include nav.html label="Mobile navigation" %}
+          </details>
         </div>
-        <div id="navbar" class="navigation-buttons">
-          <ul>
-            {% for navbar_page in site.data.navigation %}
-            <li>
-              {% if navbar_page.title == page.title %}
-              <a class="active" href="{{ navbar_page.url | relative_url }}"
-                >{{ navbar_page.title }}</a
-              >
-              {% else %}
-              <a href="{{ navbar_page.url | relative_url }}"
-                >{{ navbar_page.title }}</a
-              >
-              {% endif %}
-            </li>
-            {% endfor %}
-          </ul>
+      </header>
+
+      <main id="content" class="page-content">{{ content }}</main>
+
+      <footer class="site-footer">
+        <div class="footer-inner">
+          <p>© {{ 'now' | date: '%Y' }} Liam Keegan</p>
+          <nav aria-label="Contact and profiles">
+            <a href="mailto:liam@keegan.ch">Email</a>
+            <a href="https://github.com/lkeegan">GitHub</a>
+            <a href="https://www.linkedin.com/in/liamrgkeegan">LinkedIn</a>
+            <a href="https://orcid.org/0000-0002-0654-4979">ORCID</a>
+            <a href="https://www.xing.com/profile/Liam_Keegan2">XING</a>
+          </nav>
         </div>
-      </div>
-      <div
-        id="content"
-        style="--page-bg-image: url('{{ page.image | prepend: '/imgs/' | relative_url }}');"
-      >
-        <div id="pic"></div>
-        <div id="txt">{{ content }}</div>
-      </div>
-      <div id="footer" class="navigation-buttons">
-        <ul>
-          <li>
-            <a href="https://orcid.org/0000-0002-0654-4979"
-              ><img
-                src="{{ '/imgs/ORCID.png' | relative_url }}"
-                alt="ORCID"
-                width="14px"
-            /></a>
-          </li>
-          <li>
-            <a href="https://www.xing.com/profile/Liam_Keegan2"
-              ><img
-                src="{{ '/imgs/XING.png' | relative_url }}"
-                alt="XING"
-                width="14px"
-            /></a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/liamrgkeegan"
-              ><img
-                src="{{ '/imgs/LinkedIn.png' | relative_url }}"
-                alt="LinkedIn"
-                width="14px"
-            /></a>
-          </li>
-          <li>
-            <a href="https://github.com/lkeegan"
-              ><img
-                src="{{ '/imgs/GitHub.png' | relative_url }}"
-                alt="GitHub"
-                width="14px"
-            /></a>
-          </li>
-          <li>
-            <a href="mailto:liam@keegan.ch">liam@keegan.ch</a>
-          </li>
-        </ul>
-      </div>
+      </footer>
     </div>
   </body>
 </html>

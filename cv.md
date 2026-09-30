@@ -1,8 +1,6 @@
 ---
 title: CV
 layout: default
-image: cv.jpg
-image_link: docs/CV-Liam-Keegan.pdf
 ---
 
 ## Brief CV

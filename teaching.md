@@ -1,21 +1,28 @@
 ---
 title: Teaching
-image: teaching.jpg
 layout: default
 ---
 
 {% for section in site.data.teaching %}
-
-## {{ section.title }}
-
-{{ section.description }}:
-
-{%- assign items = section.items | sort: "years" | reverse %}
-{%- for item in items %}
-- [{{ item.title }}]({{ item.link }}) ({{ item.years | join: ", " }})
-{%- for bullet in item.bullets %}
-  - {{ bullet }}
-{%- endfor %}
-{%- endfor %}
-
+<section class="archive-section">
+  <div class="archive-section-heading">
+    <h2>{{ section.title }}</h2>
+    <p>{{ section.description }}</p>
+  </div>
+  <div class="archive-list">
+    {% for item in section.items %}
+    <article class="archive-entry">
+      <div class="archive-year">{{ item.years | join: ', ' }}</div>
+      <div class="archive-details">
+        <h3>{{ item.title }}</h3>
+        {% if item.summary %}<p>{{ item.summary }}</p>{% endif %}
+        <div class="archive-meta">
+          <a class="project-source" href="{{ item.link }}">{{ section.link_label }} <span aria-hidden="true">↗</span></a>
+          {% if item.source %}<a class="project-source" href="{{ item.source }}">Source code <span aria-hidden="true">↗</span></a>{% endif %}
+        </div>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
 {% endfor %}
