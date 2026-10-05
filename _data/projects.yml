@@ -75,6 +75,7 @@
 - start_year: 2021
   end_year: 2021
   title: pybind11-numpy-example
+  cv: false
   desc: "Simple example of pybind11/numpy including CI to build wheels and deploy to PyPI"
   url: https://pypi.org/project/pybind11-numpy-example
   tags:
@@ -87,6 +88,7 @@
 - start_year: 2021
   end_year: 2021
   title: sme-contrib
+  cv: false
   desc: Parameter fitting and plotting functionality for Spatial Model Editor
   url: https://sme-contrib.readthedocs.io/
   tags:
@@ -122,6 +124,7 @@
 - start_year: 2019
   end_year: 2026
   title: Spatial Model Editor Website
+  cv: false
   desc: Simple static website with content generated from yaml
   url: https://spatial-model-editor.github.io
   tags:
@@ -146,6 +149,7 @@
 - start_year: 2017
   end_year: 2026
   title: This website
+  cv: false
   desc: Simple static website with content generated from yaml and markdown
   url: https://www.keegan.ch
   tags:

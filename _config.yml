@@ -8,3 +8,4 @@ exclude:
   - LICENSE
   - .gitignore
   - .pre-commit-config.yaml
+  - cv/

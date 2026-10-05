@@ -3,45 +3,68 @@
   organization: Scientific Software Center
   url: https://ssc.uni-heidelberg.de/
   location: Heidelberg University, Germany
+  bullets:
+    - "C++/Python [development](https://ssc.iwr.uni-heidelberg.de/large-scale-projects) & [teaching](https://ssc.iwr.uni-heidelberg.de/events)"
 
 - year: 2019-2021
   position: Scientific Software Developer
   organization: Department for modelling of biological processes
   url: https://www.cos.uni-heidelberg.de/en/research-groups/modelling-of-biological-processes
   location: Heidelberg University, Germany
+  bullets:
+    - "C++/Qt software development of a [GUI tool](https://spatial-model-editor.github.io) to edit and simulate spatial bio-chemical reaction models"
 
 - year: 2019
   position: Scientific Software Engineer, HPC
   organization: Blue Brain Project
   url: https://bluebrain.epfl.ch/
   location: EPFL, Geneva, Switzerland
+  bullets:
+    - "Adding symbolic math capabilities to a C++/Python [source-to-source compiler](https://github.com/BlueBrain/nmodl)"
 
 - year: 2017-2018
   position: Postdoctoral Researcher
   organization: ETH
   url: https://ethz.ch/en.html
   location: Zurich, Switzerland
+  bullets:
+    - "Developing and optimising C++ [physics simulation codes](https://github.com/lkeegan/muRHMC)"
+    - "Implementing and testing [new algorithms](https://github.com/lkeegan/blockCG)"
+    - "Teaching [C++ numerical simulation and data analysis course](https://github.com/lkeegan/LQCD)"
+    - "Supervising Masters student Proseminars"
 
 - year: 2013-2016
   position: Senior Fellow
   organization: Department of Theoretical Physics, CERN
   url: https://theory.cern/
   location: Geneva, Switzerland
+  bullets:
+    - "Developing and optimising C/C++ MPI physics simulation codes"
+    - "Analyzing and visualising the resulting data using python/numpy/scipy"
+    - "Design and implementation of an open source [Python/PyQt GUI input file editor](https://github.com/lkeegan/openQCD-input-file-editor)"
 
 - year: 2011-2013
   position: Postdoctoral Researcher
   organization: Instituto de Física Teórica UAM/CSIC
   url: https://www.ift.uam-csic.es/en
   location: Madrid, Spain
+  bullets:
+    - "Developing C/C++ MPI and Fortran physics simulation codes, running them on HPC clusters, analysing resulting data"
 
 - year: 2007-2011
   position: "PhD: Dynamical Electroweak Symmetry Breaking on the Lattice"
   organization: Particle Physics Theory Group, Edinburgh University
   url: https://www.ph.ed.ac.uk/particle-physics-theory
   location: Edinburgh, UK
+  education: true
+  bullets:
+    - "PhD in Computational Physics"
 
 - year: 2003-2007
   position: MPhys
   organization: Lincoln College, Oxford University
   url: https://lincoln.ox.ac.uk/
   location: Oxford, UK
+  education: true
+  bullets:
+    - "MPhys in physics, 1st Class Honours, Lincoln College Scholar"

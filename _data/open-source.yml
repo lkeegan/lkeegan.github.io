@@ -80,10 +80,10 @@
 
 - start_year: 2022
   end_year: 2022
-  project: psychopy
+  project: PsychoPy
   url: https://psychopy.org/
   code: https://github.com/psychopy/psychopy/pull/5027
-  desc: Improved the rendering performance in psychopy.
+  desc: Improved the rendering performance in PsychoPy.
   tags:
     - Python
 

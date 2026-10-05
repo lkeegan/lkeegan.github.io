@@ -1,0 +1,58 @@
+name: Liam Keegan
+title: Scientific Software Developer and High Performance Computing expert
+
+contact:
+  - text: liam@keegan.ch
+    url: mailto:liam@keegan.ch
+  - text: www.keegan.ch
+    url: https://www.keegan.ch
+
+about:
+  - Experienced scientific software developer with excellent problem solving and computational skills.
+  - Ability to work with complex multi-dimensional data, perform statistical analyses, extract relevant insights.
+  - Experienced at communicating and explaining complex ideas and concepts; over 30 papers, conference proceedings and talks prepared.
+
+skills:
+  - category: Communication
+    items:
+      - Working with local and international teams from a wide variety of disciplines
+      - Giving technical seminars and international conference talks
+      - Preparing research papers
+  - category: Teaching
+    items:
+      - Teaching courses on software development
+      - Teaching physics, maths and computing courses
+  - category: Software Development
+    items:
+      - C / C++ / Python
+      - MPI / OpenMP / TBB
+      - Qt / PyQt
+      - Eigen / pybind11 / OpenCV
+      - Docker / Singularity
+      - Bash / Awk / Sed scripting
+      - Valgrind / Callgrind / ASAN
+      - Git / Subversion
+      - Unit testing / CI / CD
+      - CMake / Make
+      - Latex / BibTex
+      - Fortran
+      - Typescript / Javascript
+      - HTML / CSS
+  - category: Data analysis
+    items:
+      - Statistical analysis of data
+      - Machine learning
+      - 2d and 3d visualisation
+      - Pandas / scikit-learn / Scipy
+      - Mathematica / Maple / Octave
+      - Matplotlib / Gnuplot
+
+languages:
+  - language: English
+    level: native
+  - language: French
+    level: native
+  - language: Spanish
+    level: fluent
+  - language: German
+    level: intermediate

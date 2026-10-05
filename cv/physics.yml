@@ -1,0 +1,195 @@
+publications:
+  - title: Rational hybrid Monte Carlo with block solvers and multiple pseudofermions
+    authors: Ph. de Forcrand, L. Keegan
+    journal: Phys. Rev. E
+    volume: "98"
+    year: 2018
+    pages: "043306"
+    url: https://arxiv.org/abs/1808.01829
+    impact_factor: 2.366
+  - title: Initial conditions for hydrodynamics from weakly coupled pre-equilibrium evolution
+    authors: L. Keegan, A. Kurkela, A. Mazeliauskas and D. Teaney
+    journal: JHEP
+    volume: "1608"
+    year: 2016
+    pages: "171"
+    url: https://arxiv.org/abs/1605.04287
+    impact_factor: 6.023
+  - title: Weak and strong coupling equilibration in nonabelian gauge theories
+    authors: L. Keegan, A. Kurkela, P. Romatschke, W. van der Schee and Y. Zhu
+    journal: JHEP
+    volume: "1604"
+    year: 2016
+    pages: "031"
+    url: https://arxiv.org/abs/1512.05347
+    impact_factor: 6.023
+  - title: Mass anomalous dimension of Adjoint QCD at large N from twisted volume reduction
+    authors: M. Garcia Perez, A. Gonzalez-Arroyo, L. Keegan and M. Okawa
+    journal: JHEP
+    volume: "1508"
+    year: 2015
+    pages: "034"
+    url: https://arxiv.org/abs/1506.06536
+    impact_factor: 6.023
+  - title: A comparison of updating algorithms for large N reduced models
+    authors: M. Garcia Perez, A. Gonzalez-Arroyo, L. Keegan, M. Okawa and A. Ramos
+    journal: JHEP
+    volume: "1506"
+    year: 2015
+    pages: "193"
+    url: https://arxiv.org/abs/1505.05784
+    impact_factor: 6.023
+  - title: The SU(infinite) twisted gradient flow running coupling
+    authors: M. Garcia Perez, A. Gonzalez-Arroyo, L. Keegan and M. Okawa
+    journal: JHEP
+    volume: "1501"
+    year: 2015
+    pages: "038"
+    url: https://arxiv.org/abs/1412.0941
+    impact_factor: 6.023
+  - title: MCRG Minimal Walking Technicolor
+    authors: S. Catterall, L. Del Debbio, J. Giedt, L. Keegan
+    journal: Phys. Rev. D
+    volume: "85"
+    year: 2012
+    pages: "094501"
+    url: https://arxiv.org/abs/1108.3794
+    impact_factor: 4.506
+  - title: Mass anomalous dimension in SU(2) with six fundamental fermions
+    authors: F. Bursa, L. Del Debbio, L. Keegan, C. Pica and T. Pickup
+    journal: Phys. Lett. B
+    volume: "696"
+    year: 2011
+    pages: "374"
+    url: https://arxiv.org/abs/1007.3067
+    impact_factor: 4.787
+  - title: Mass anomalous dimension in SU(2) with two adjoint fermions
+    authors: F. Bursa, L. Del Debbio, L. Keegan, C. Pica and T. Pickup
+    journal: Phys. Rev. D
+    volume: "81"
+    year: 2010
+    pages: "014505"
+    url: https://arxiv.org/abs/0910.4535
+    impact_factor: 4.506
+
+proceedings:
+  - title: An optimizing multi-platform source-to-source compiler framework for the NEURON MODeling Language
+    authors: Pramod Kumbhar, Omar Awile, Liam Keegan, Jorge Alonso, James King, Michael Hines and Felix Schürmann
+    venue: ICCS 2020
+    url: https://link.springer.com/chapter/10.1007/978-3-030-50371-0_4
+  - title: "'t Hooft model on the Lattice"
+    authors: M. G. Pérez, A. González-Arroyo, L. Keegan and M. Okawa
+    venue: PoS Lattice 2016
+    url: https://arxiv.org/abs/1612.07380
+  - title: (Dimensional) twisted reduction in large N gauge theories
+    authors: L. Keegan and A. Ramos
+    venue: PoS Lattice 2015
+    url: https://arxiv.org/abs/1510.08360
+  - title: Schwinger Model Mass Anomalous Dimension
+    authors: L. Keegan
+    venue: PoS Lattice 2015
+    url: https://arxiv.org/abs/1508.01685
+  - title: Four-fermi anomalous dimension with adjoint fermions
+    authors: L. Del Debbio, L. Keegan and C. Pena
+    venue: PoS Lattice 2014
+  - title: TEK twisted gradient flow running coupling
+    authors: M. Garcia Perez, A. Gonzalez-Arroyo, L. Keegan and M. Okawa
+    venue: PoS Lattice 2014
+    url: https://arxiv.org/abs/1411.0258
+  - title: Anomalous dimensions of four-fermion operators from conformal EWSB dynamics
+    authors: L. Del Debbio, L. Keegan and C. Pena
+    venue: PoS Lattice 2013
+    url: https://arxiv.org/abs/1311.4458
+  - title: Mass anomalous dimension from large N twisted volume reduction
+    authors: M. G. Perez, A. Gonzalez-Arroyo, L. Keegan and M. Okawa
+    venue: PoS Lattice 2013
+    url: https://arxiv.org/abs/1311.2395
+  - title: Mass Anomalous Dimension at Large N
+    authors: L. Keegan
+    venue: PoS Lattice 2012
+    url: https://arxiv.org/abs/1210.7247
+  - title: RG flows in 3D scalar field theory
+    authors: L. Del Debbio, L. Keegan
+    venue: PoS Lattice 2011
+  - title: Systematic Errors of the MCRG Method
+    authors: S. Catterall, L. Del Debbio, J. Giedt, L. Keegan
+    venue: PoS Lattice 2011
+    url: https://arxiv.org/abs/1110.1660
+  - title: MCRG Minimal Walking Technicolor
+    authors: S. Catterall, L. Del Debbio, J. Giedt, L. Keegan
+    venue: PoS Lattice 2010
+    url: https://arxiv.org/abs/1010.5909
+  - title: Mass anomalous dimension and running of the coupling in SU(2) with six fundamental fermions
+    authors: F. Bursa, L. Del Debbio, L. Keegan, C. Pica and T. Pickup
+    venue: PoS Lattice 2010
+    url: https://arxiv.org/abs/1010.0901
+  - title: Running of the coupling and quark mass in SU(2) with two adjoint fermions
+    authors: F. Bursa, L. Del Debbio, L. Keegan, C. Pica and T. Pickup
+    venue: PoS Lattice 2009
+    url: https://arxiv.org/abs/0910.2562
+
+talks:
+  - title: Schwinger Model Mass Anomalous Dimension
+    event: Lattice 2015
+    location: Kobe, Japan
+    dates: 14th-18th July 2015
+  - title: TEK twisted gradient flow running coupling
+    event: Lattice 2014
+    location: Columbia University, New York
+    dates: 23rd-28th June 2014
+  - title: Mass anomalous dimension from large N twisted volume reduction
+    event: Lattice 2013
+    location: Mainz, Germany
+    dates: 29th July-3rd Aug 2013
+  - title: Large N volume reduction of MWT
+    event: Higgs Centre BSM Workshop
+    location: Edinburgh University, UK
+    dates: 24th-26th April 2013
+  - title: Mass Anomalous Dimension at Large N
+    event: Lattice 2012
+    location: Cairns, Australia
+    dates: 24th-29th June 2012
+  - title: Systematic Errors of the MCRG Method
+    event: Lattice 2011
+    location: Lake Tahoe, USA
+    dates: 10th-16th July 2011
+  - title: MCRG Minimal Walking Technicolor
+    event: Workshop in memory of Jan Wennekers
+    location: Edinburgh, UK
+    dates: 28th-29th March 2011
+  - title: MCRG Minimal Walking Technicolor
+    event: Lattice 2010
+    location: Villasimius, Sardinia
+    dates: 14th-19th June 2010
+  - title: Walking Technicolor on the Lattice
+    event: MCFP Workshop on Large N Gauge Theories
+    location: University of Maryland, USA
+    dates: 13th-15th May 2010
+  - title: Strong Dynamics on the Lattice
+    event: UK High Energy Physics Young Theorists' Forum
+    location: Durham
+    dates: 16th-17th Dec 2009
+  - title: Walking Technicolor on the Lattice
+    event: UK High Energy Physics Young Theorists' Forum
+    location: University College London
+    dates: 14th-15th May 2009
+
+seminars:
+  - title: RHMC with multiple pseudofermions and block solvers
+    location: CERN, Switzerland
+    date: 27th Oct 2018
+  - title: Large-N twisted volume reduction of QCD on the lattice
+    location: Fermilab, Chicago, USA
+    date: 19th June 2014
+  - title: Lattice Field Theory beyond QCD
+    location: CERN, Switzerland
+    date: 10th Jan 2014
+  - title: Mass Anomalous Dimension at Large N
+    location: IFT/UAM-CSIC Madrid, Spain
+    date: 11th Oct 2012
+  - title: Walking Technicolor on the Lattice
+    location: Valencia, Spain
+    date: 22nd Dec 2010
+  - title: Minimal Walking Technicolor
+    location: Edinburgh, UK
+    date: 6th Jan 2010
